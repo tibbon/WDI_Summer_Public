@@ -14,7 +14,7 @@ To get started, fork this repo in Github.
 Clone the repo from your account: 
 
 ```
-git clone https://github.com/username/WDI_Summer_Public.git
+git clone https://github.com/YOUR-USERNAME/WDI_Summer_Public.git
 # Clones your fork of the repository into the current directory in terminal, with your username
 ```
 
