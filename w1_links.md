@@ -13,3 +13,4 @@
 - [Gitflow](https://github.com/nvie/gitflow) - A git methdology and toolset
 - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) - Explaination of Gitflow
 - [David's examples of Unix utilities](https://gist.github.com/tibbon/5794257)
+- [Git cheat sheet from another WDI instructor](https://gist.github.com/tibbon/5801402)
