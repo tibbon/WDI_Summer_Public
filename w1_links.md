@@ -17,3 +17,4 @@
 - [Imperative Programming](http://en.wikipedia.org/wiki/Imperative_programming)
 - [Git cheat sheet from another WDI instructor](https://gist.github.com/tibbon/5801402)
 - [SO: p vs puts in ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
+- [SO: parameters vs. arguments (who cares!?)](http://stackoverflow.com/questions/156767/whats-the-difference-between-an-argument-and-a-parameter)
