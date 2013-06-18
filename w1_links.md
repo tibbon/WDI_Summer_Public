@@ -16,3 +16,4 @@
 - [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)
 - [Imperative Programming](http://en.wikipedia.org/wiki/Imperative_programming)
 - [Git cheat sheet from another WDI instructor](https://gist.github.com/tibbon/5801402)
+- [SO: p vs puts in ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
