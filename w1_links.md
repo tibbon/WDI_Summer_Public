@@ -15,3 +15,4 @@
 - [David's examples of Unix utilities](https://gist.github.com/tibbon/5794257)
 - [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)
 - [Imperative Programming](http://en.wikipedia.org/wiki/Imperative_programming)
+- [Git cheat sheet from another WDI instructor](https://gist.github.com/tibbon/5801402)
