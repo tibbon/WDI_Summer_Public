@@ -13,4 +13,8 @@
 - [Gitflow](https://github.com/nvie/gitflow) - A git methdology and toolset
 - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) - Explaination of Gitflow
 - [David's examples of Unix utilities](https://gist.github.com/tibbon/5794257)
+- [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)
+- [Imperative Programming](http://en.wikipedia.org/wiki/Imperative_programming)
 - [Git cheat sheet from another WDI instructor](https://gist.github.com/tibbon/5801402)
+- [SO: p vs puts in ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
+- [SO: parameters vs. arguments (who cares!?)](http://stackoverflow.com/questions/156767/whats-the-difference-between-an-argument-and-a-parameter)
