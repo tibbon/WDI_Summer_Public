@@ -18,4 +18,7 @@ examples/calc.rb
 Review a commented and expanded version of the hash example code from this afternoon. 
 examples/city_population_hash_example.rb
 
+### Complete your lab work
+On randomizing students into groups. Ideally, work together in person or remotely by commiting to github. Add your team mate as a collaborator to the git repository. 
+[How to add a collaborator](https://help.github.com/articles/how-do-i-add-a-collaborator)
 *Don't forget to update your local checkout of your forked WDI_Summer_Public repository (Instructions here: https://github.com/tibbon/WDI_Summer_Public)*
