@@ -1,6 +1,6 @@
 # Homework Assignmetns
 
-## 06/19/2013
+## Assigned 06/19/2013
 
 ### Read about Functions
 * Please read the functions section of week one links (which we've reorganized):
