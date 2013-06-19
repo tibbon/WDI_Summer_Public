@@ -14,6 +14,16 @@ def divide(a, b)
   return a / b
 end
 
+def calculate(x, y)
+  puts add(x, y)
+  puts subtract(x,y)
+  puts multiply(x, y)
+  puts divide(x, y)
+end
+
+# The following line would run the calculate function
+# calculate(1,1)
+
 def prompt_numbers
   puts "Give me a number"
   a = gets.chomp.to_f
