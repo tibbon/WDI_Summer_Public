@@ -9,10 +9,13 @@
 * Please read these notes on functions that Phil curated: 
   * https://github.com/tibbon/WDI_Summer_Public/raw/master/resources/wdi-functions.pdf
 
-### Review the cacl.rb code example from this morning. 
-Also, review the code that David live coded this morning in Sublime. 
+### Review cacl.rb 
+Review the code that David live coded this morning in Sublime. 
+examples/calc.rb
 (Don't read the code online, read it in your sublime text editor)
 
 ### Review Chris's code on hashes
+Review a commented and expanded version of the hash example code from this afternoon. 
+examples/city_population_hash_example.rb
 
 *Don't forget to update your local checkout of your forked WDI_Summer_Public repository (Instructions here: https://github.com/tibbon/WDI_Summer_Public)*
