@@ -15,7 +15,7 @@ examples/calc.rb
 (Don't read the code online, read it in your sublime text editor)
 
 ### Review Chris's code on hashes
-Review a commented and expanded version of the hash example code from this afternoon. 
+Review a commented and expanded version of the hash example code from this afternoon. Run the code and observe the output.
 examples/city_population_hash_example.rb
 
 ### Complete your lab work
