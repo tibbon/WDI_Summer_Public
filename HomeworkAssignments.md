@@ -1,5 +1,29 @@
 # Homework Assignmetns
 
+## Assigned 06/20/2013
+
+### Read about Classes and Objects
+* Remember, that a class is a description, and an object is an "instance" of a class
+* Read class notes on [objects](https://github.com/tibbon/WDI_Summer_Public/blob/master/resources/wdi-objects.pdf?raw=true)
+* Read up to, but not including, the *Class Inheritance* section 
+  (i.e., don't read that section or below) [here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm) 
+
+### Read about Exceptions, File I/O, and Testing
+* *Skim* class notes on [all three concepts](https://github.com/tibbon/WDI_Summer_Public/blob/master/resources/exceptions_file_io_and_tdd.pdf?raw=true). 
+  * *Skim these notes.* 
+  * We'll be going over them in detail on Friday, but we thought seeing them ahead of time could 
+    be useful.
+  * Don't try to run the code, but just try to follow along with the examples as written. 
+* Optional: 
+  * Watch this code school on 
+    [Testing with Rspec](http://www.codeschool.com/courses/testing-with-rspec). *Don't* 
+    worry about the specific syntax or terminology, rather try and understand the general 
+    approach to test driven development they take.
+
+### Finish the HappyTail assignment
+  * [Assignment Here](https://github.com/tibbon/WDI_Summer_Public/blob/master/assignments/assignments/happy_tails.md)
+  * Work through git with your collaborators. When you are done, check in your code. 
+
 ## Assigned 06/19/2013
 
 ### Read about Functions
