@@ -5,9 +5,8 @@
 ### Read about Classes and Objects
 * Remember, that a class is a description, and an object is an "instance" of a class
 * Read class notes on [objects](./resources/wdi-objects.pdf?raw=true)
-* Read up to, but not including, the *Class Inheritance* section 
-  (i.e., don't read that section or below) [here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm) 
-
+* [Here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm), read up
+  to, but *not* including, the *Operator Overloading* section (i.e., don't read that section or below) 
 ### Read about Exceptions, File I/O, and Testing
 * *Skim* class notes on [all three concepts](./resources/exceptions_file_io_and_tdd.pdf?raw=true). 
   * *Skim these notes.* 
