@@ -1,6 +1,6 @@
 ## Links
 
-#### General
+#### General Programming/tech
 - [Stack Overflow](https://stackoverflow.com) - Questions and Answer site for programming/tech.
 - [Hacker News](https://news.ycombinator.com/) - Startup, tech and programming discussion board. 
 
@@ -16,7 +16,7 @@
 - [Lean Startup by Eric Ries](http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0307887898&linkCode=as2&tag=wha07-20) - Excellent pragmatic look at startup methodology
 - [Getting Real](http://gettingreal.37signals.com/) - Extremely opinionated ebook by the company that created Ruby on Rails (37 Signals) on project management and methodology
 - [Scrum Wikipedia article](http://en.wikipedia.org/wiki/Scrum_(software_development) - A common agile methodology. Today's class explaination was a bit simplified.
-
+- [Program or be Programmed](http://www.amazon.com/books/dp/159376426X)
 
 #### Unix
 - [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php) - Documentation on how to learn bash/linux shell. 
