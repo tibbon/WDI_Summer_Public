@@ -1,3 +1,5 @@
+require 'pry'
+
 class Person
   attr_accessor :name, :age, :gender, :apartment
   def initialize(name, age, gender)
@@ -50,14 +52,9 @@ class Apartment
   end
 end
 
-# bad_apartment = Apartment.new("B", 2800, 300, 1, 1)
-# puts bad_apartment
-
 mckibben_lofts = Building.new("38 McKibben St", "loft", false, false, 7)
-unit_a = Apartment.new("A", 3200, 200, 1, 2)
-unit_b = Apartment.new("B", 2800, 300, 1, 1)
-mckibben_lofts.apartments[:unit_a] = unit_a
-mckibben_lofts.apartments[:unit_b] = unit_b
+mckibben_lofts.apartments[:unit_a] = Apartment.new("A", 3200, 200, 1, 2)
+mckibben_lofts.apartments[:unit_b] = Apartment.new("B", 2800, 300, 1, 1)
 mckibben_lofts.apartments[:unit_a].renters << Person.new("David", 30, "male")
 mckibben_lofts.apartments[:unit_a].renters << Person.new("Samantha", 20, "female")
 
@@ -65,6 +62,7 @@ puts mckibben_lofts
 puts mckibben_lofts.apartments[:unit_a]
 mckibben_lofts.apartments[:unit_a].renters.each {|renter| puts renter}
 
-# twenty_west_third = Building.new("20 West Third", "brownstone", false, true, 3)
-# puts twenty_west_third
-
+# Make another building (2 total buildings)
+# Add at least 2 apartments to each building (4 total apartments)
+# Add at least one tenent in each apartment (4+ total tenents)
+# Output a summary of each building
