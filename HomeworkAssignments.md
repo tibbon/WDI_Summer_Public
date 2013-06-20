@@ -4,13 +4,13 @@
 
 ### Read about Functions
 * Please read the functions section of week one links (which we've reorganized):
-  * https://github.com/tibbon/WDI_Summer_Public/blob/master/w1_links.md#functions 
+  * https://github.com/tibbon/WDI_Summer_Public/blob/master/w1_links.md#functions
 
-* Please read these notes on functions that Phil curated: 
+* Please read these notes on functions that Phil curated:
   * https://github.com/tibbon/WDI_Summer_Public/raw/master/resources/wdi-functions.pdf
 
-### Review cacl.rb 
-Review the code that David live coded this morning in Sublime. 
+### Review calc.rb
+Review the code that David live coded this morning in Sublime.
 examples/calc.rb
 (Don't read the code online, read it in your sublime text editor)
 
@@ -19,7 +19,7 @@ Review a commented and expanded version of the hash example code from this after
 examples/city_population_hash_example.rb
 
 ### Complete your lab work
-On randomizing students into groups. Ideally, work together in person or remotely by commiting to github. Add your team mate as a collaborator to the git repository. 
+On randomizing students into groups. Ideally, work together in person or remotely by commiting to github. Add your team mate as a collaborator to the git repository.
 [How to add a collaborator](https://help.github.com/articles/how-do-i-add-a-collaborator)
 
 
