@@ -9,7 +9,7 @@ Feel free to suggest changes via [Pull Requests](https://help.github.com/article
 
 To get started, fork this repo in Github.
 
-![How to fork this repo](https://github-images.s3.amazonaws.com/help/Bootcamp-Fork.png)
+[![How to fork this repo](https://github-images.s3.amazonaws.com/help/Bootcamp-Fork.png)](https://github.com/tibbon/WDI_Summer_Public/fork)
 
 Clone the repo from your account: 
 
