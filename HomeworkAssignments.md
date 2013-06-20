@@ -7,6 +7,7 @@
 * Read class notes on [objects](./resources/wdi-objects.pdf?raw=true)
 * [Here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm), read up
   to, but *not* including, the *Operator Overloading* section (i.e., don't read that section or below) 
+
 ### Read about Exceptions, File I/O, and Testing
 * *Skim* class notes on [all three concepts](./resources/exceptions_file_io_and_tdd.pdf?raw=true). 
   * *Skim these notes.* 
