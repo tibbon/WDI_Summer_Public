@@ -4,7 +4,7 @@
 
 ### Read about Classes and Objects
 * Remember, that a class is a description, and an object is an "instance" of a class
-* Read class notes on [objects](https://github.com/tibbon/WDI_Summer_Public/blob/master/resources/wdi-objects.pdf?raw=true)
+* Read class notes on [objects](./resources/wdi-objects.pdf?raw=true)
 * Read up to, but not including, the *Class Inheritance* section 
   (i.e., don't read that section or below) [here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm) 
 
