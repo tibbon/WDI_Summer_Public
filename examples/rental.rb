@@ -61,7 +61,7 @@ mckibben_lofts.apartments[:unit_a].renters << Person.new("Samantha", 20, "female
 puts mckibben_lofts
 puts mckibben_lofts.apartments[:unit_a]
 mckibben_lofts.apartments[:unit_a].renters.each {|renter| puts renter}
-w
+
 # Make another building (2 total buildings)
 # Add at least 2 apartments to each building (4 total apartments)
 # Add at least one tenent in each apartment (4+ total tenents)
