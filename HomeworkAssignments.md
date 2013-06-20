@@ -9,7 +9,7 @@
   (i.e., don't read that section or below) [here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm) 
 
 ### Read about Exceptions, File I/O, and Testing
-* *Skim* class notes on [all three concepts](https://github.com/tibbon/WDI_Summer_Public/blob/master/resources/exceptions_file_io_and_tdd.pdf?raw=true). 
+* *Skim* class notes on [all three concepts](./resources/exceptions_file_io_and_tdd.pdf?raw=true). 
   * *Skim these notes.* 
   * We'll be going over them in detail on Friday, but we thought seeing them ahead of time could 
     be useful.
@@ -21,7 +21,7 @@
     approach to test driven development they take.
 
 ### Finish the HappyTail assignment
-  * [Assignment Here](https://github.com/tibbon/WDI_Summer_Public/blob/master/assignments/happy_tails.md)
+  * [Assignment Here](./assignments/happy_tails.md)
   * Work through git with your 
   [collaborators](https://help.github.com/articles/how-do-i-add-a-collaborator). 
   When you are done, check in your code. 
@@ -30,10 +30,10 @@
 
 ### Read about Functions
 * Please read the functions section of week one links (which we've reorganized):
-  * https://github.com/tibbon/WDI_Summer_Public/blob/master/w1_links.md#functions
+  * ./w1_links.md#functions
 
 * Please read these notes on functions that Phil curated:
-  * https://github.com/tibbon/WDI_Summer_Public/raw/master/resources/wdi-functions.pdf
+  * ./resources/wdi-functions.pdf
 
 ### Review calc.rb
 Review the code that David live coded this morning in Sublime.
