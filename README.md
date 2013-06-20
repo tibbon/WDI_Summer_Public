@@ -34,6 +34,8 @@ git fetch upstream
 # Pulls in changes not present in your local repository, without modifying your files
 git merge upstream/master
 # Merges any changes fetched into your working files
+git push origin master
+# Then push everything up to YOUR github repository
 ```
 
 To make contributions:
