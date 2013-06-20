@@ -21,8 +21,10 @@
     approach to test driven development they take.
 
 ### Finish the HappyTail assignment
-  * [Assignment Here](https://github.com/tibbon/WDI_Summer_Public/blob/master/assignments/assignments/happy_tails.md)
-  * Work through git with your collaborators. When you are done, check in your code. 
+  * [Assignment Here](https://github.com/tibbon/WDI_Summer_Public/blob/master/assignments/happy_tails.md)
+  * Work through git with your 
+  [collaborators](https://help.github.com/articles/how-do-i-add-a-collaborator). 
+  When you are done, check in your code. 
 
 ## Assigned 06/19/2013
 
