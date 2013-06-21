@@ -4,12 +4,11 @@
 
 ### Read about Classes and Objects
 * Remember, that a class is a description, and an object is an "instance" of a class
-* Read class notes on [objects](https://github.com/tibbon/WDI_Summer_Public/blob/master/resources/wdi-objects.pdf?raw=true)
-* Read up to, but not including, the *Class Inheritance* section 
-  (i.e., don't read that section or below) [here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm) 
-
+* Read class notes on [objects](./resources/wdi-objects.pdf?raw=true)
+* [Here](http://www.tutorialspoint.com/ruby/ruby_object_oriented.htm), read up
+  to, but *not* including, the *Operator Overloading* section (i.e., don't read that section or below) 
 ### Read about Exceptions, File I/O, and Testing
-* *Skim* class notes on [all three concepts](https://github.com/tibbon/WDI_Summer_Public/blob/master/resources/exceptions_file_io_and_tdd.pdf?raw=true). 
+* *Skim* class notes on [all three concepts](./resources/exceptions_file_io_and_tdd.pdf?raw=true). 
   * *Skim these notes.* 
   * We'll be going over them in detail on Friday, but we thought seeing them ahead of time could 
     be useful.
@@ -21,30 +20,31 @@
     approach to test driven development they take.
 
 ### Finish the HappyTail assignment
-  * [Assignment Here](https://github.com/tibbon/WDI_Summer_Public/blob/master/assignments/assignments/happy_tails.md)
-  * Work through git with your collaborators. When you are done, check in your code. 
+  * [Assignment Here](./assignments/happy_tails.md)
+  * Work through git with your 
+  [collaborators](https://help.github.com/articles/how-do-i-add-a-collaborator). 
+  When you are done, check in your code. 
 
 ## Assigned 06/19/2013
 
 ### Read about Functions
 * Please read the functions section of week one links (which we've reorganized):
-  * https://github.com/tibbon/WDI_Summer_Public/blob/master/w1_links.md#functions
+  * [Function links](./w1_links.md#functions)
 
 * Please read these notes on functions that Phil curated:
-  * https://github.com/tibbon/WDI_Summer_Public/raw/master/resources/wdi-functions.pdf
+  * [WDI notes](./resources/wdi-functions.pdf)
 
 ### Review calc.rb
 Review the code that David live coded this morning in Sublime.
-examples/calc.rb
+in examples/calc.rb
 (Don't read the code online, read it in your sublime text editor)
 
 ### Review Chris's code on hashes
 Review a commented and expanded version of the hash example code from this afternoon. Run the code and observe the output.
-examples/city_population_hash_example.rb
+in examples/city_population_hash_example.rb
 
 ### Complete your lab work
 On randomizing students into groups. Ideally, work together in person or remotely by commiting to github. Add your team mate as a collaborator to the git repository.
 [How to add a collaborator](https://help.github.com/articles/how-do-i-add-a-collaborator)
-
 
 *As always, don't forget to update your local checkout of your forked WDI_Summer_Public repository (Instructions here: https://github.com/tibbon/WDI_Summer_Public)*
