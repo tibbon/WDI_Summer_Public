@@ -35,3 +35,6 @@
 - [Functions in Ruby Syntax](http://www.howtogeek.com/howto/programming/ruby/ruby-function-method-syntax/)
 - [SO: parameters vs. arguments (who cares!?)](http://stackoverflow.com/questions/156767/whats-the-difference-between-an-argument-and-a-parameter)
 
+#### Files
+[SO on closing files]
+(http://stackoverflow.com/questions/4795447/rubys-file-open-and-the-need-for-f-close)
