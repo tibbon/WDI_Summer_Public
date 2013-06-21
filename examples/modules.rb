@@ -1,4 +1,3 @@
-require 'pry'
 module Navigate
   def go_north
   end
@@ -23,6 +22,3 @@ end
 
 class Car < Vehicle
 end
-
-my_car = Car.new
-puts my_car.inspect
