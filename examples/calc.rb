@@ -46,15 +46,15 @@ end
 
 a, b, math_function = prompt
 
-puts case math_function
+case math_function
 when "add"
-  return add(a,b)
+   puts add(a,b)
 when "subtract"
-  return subtract(a,b)
+   puts subtract(a,b)
 when "multiply"
-  return multiply(a, b)
+   puts multiply(a, b)
 when "divide"
-  return divide(a, b)
+   puts divide(a, b)
 end
 
 

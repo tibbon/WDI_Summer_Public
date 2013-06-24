@@ -1,20 +1,24 @@
-class Car
-  attr_accessor :color, :year, :make, :model
-  def initialize(color, year, make, model)
-    @color = color
-    @year = year
-    @make = make
-    @model = model
+module Navigate
+  def go_north
   end
-
-  def honk
-    puts 'honk'
+  def go_south
   end
 end
 
-car_1 = Car.new('red', 2004, 'Kia', 'Soul')
-car_2 = Car.new('blue', 2010, 'Ford', 'F150')
+module Signal
+  def left_blinker
+  end
+  def right_blinker
+  end
+  def emergency_lights
+    puts "BLINKY BLINK"
+  end
+end
 
-car_2.color = ('green')
+class Vehicle
+  include Navigate
+  include Signal
+end
 
-car_2.honk
+class Car < Vehicle
+end

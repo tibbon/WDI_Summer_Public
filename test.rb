@@ -1,0 +1,2 @@
+hist --clear
+foo = "bar"
