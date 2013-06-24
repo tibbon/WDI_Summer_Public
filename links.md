@@ -17,6 +17,7 @@
 - [Getting Real](http://gettingreal.37signals.com/) - Extremely opinionated ebook by the company that created Ruby on Rails (37 Signals) on project management and methodology
 - [Scrum Wikipedia article](http://en.wikipedia.org/wiki/Scrum_(software_development) - A common agile methodology. Today's class explaination was a bit simplified.
 - [Program or be Programmed](http://www.amazon.com/books/dp/159376426X)
+- [Cargo Cult Coding](http://en.wikipedia.org/wiki/Cargo_cult_programming)
 
 #### Unix
 - [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php) - Documentation on how to learn bash/linux shell. 
