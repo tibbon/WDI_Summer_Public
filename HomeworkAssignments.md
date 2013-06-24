@@ -5,8 +5,9 @@
 [here](./assignments/html_reading.md)
 * The presentations are in the [resources](./resources/) directory if you need
 to review
+* Finish today's HTML coding exercise and push
 * If you have yet to finish your Stock Portfolio tracker and submit a pull
-request, work on this tonight. We will do an additional coding exercise with it
+request, *work on this tonight*. We will do an additional coding exercise with it
 tomorrow morning. 
 
 
