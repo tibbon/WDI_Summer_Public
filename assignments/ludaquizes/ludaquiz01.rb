@@ -62,9 +62,11 @@ ludacris[:occupations].count
 # Part 2
 # Write a method for RecordLabel that "signs" an artist to a roster
 # "Sign" Ludacris to Def Jam
+# I should be able to write def_jam.sign ludachris
 
 # Rewrite the code so that Ludacris is an artist object, not a hash
 # Create a method so that adds a hoe to an area code
+# Comment out your earlier ludacris code
 
 # Edit the Hoe's initialization method so that they get a randomly assigned area code
 # move the class code into separate files for RecordLable, Hoe and Artist
