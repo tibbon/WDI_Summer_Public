@@ -17,11 +17,16 @@
 - [Getting Real](http://gettingreal.37signals.com/) - Extremely opinionated ebook by the company that created Ruby on Rails (37 Signals) on project management and methodology
 - [Scrum Wikipedia article](http://en.wikipedia.org/wiki/Scrum_(software_development) - A common agile methodology. Today's class explaination was a bit simplified.
 - [Program or be Programmed](http://www.amazon.com/books/dp/159376426X)
+- [Cargo Cult Coding](http://en.wikipedia.org/wiki/Cargo_cult_programming)
 
 #### Unix
 - [Learning the Shell](http://linuxcommand.org/lc3_learning_the_shell.php) - Documentation on how to learn bash/linux shell. 
 - [Unix utilities/commands Wikipedia article](http://en.wikipedia.org/wiki/List_of_Unix_utilities) - The wikipedia documents on many shell utilities are rather excellent and well explained. 
 - [David's examples of Unix utilities](https://gist.github.com/tibbon/5794257)
+
+#### Infrastructure
+[Wired on Google's Data Centers](http://www.wired.com/wiredenterprise/2012/10/ff-inside-google-data-center/)
+
 
 #### Computer Science
 - [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)
