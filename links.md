@@ -24,6 +24,10 @@
 - [Unix utilities/commands Wikipedia article](http://en.wikipedia.org/wiki/List_of_Unix_utilities) - The wikipedia documents on many shell utilities are rather excellent and well explained. 
 - [David's examples of Unix utilities](https://gist.github.com/tibbon/5794257)
 
+#### Infrastructure
+[Wired on Google's Data Centers](http://www.wired.com/wiredenterprise/2012/10/ff-inside-google-data-center/)
+
+
 #### Computer Science
 - [Functional Programming](https://en.wikipedia.org/wiki/Functional_programming)
 - [Imperative Programming](http://en.wikipedia.org/wiki/Imperative_programming)
