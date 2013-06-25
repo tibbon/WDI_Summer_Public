@@ -3,7 +3,7 @@
 ## Assigned 06/24/2013
 * Check out the readings, for reference, that David uploaded
 [here](./assignments/html_reading.md)
-* The presentations are in the [resources](./resources/) directory if you need
+* The presentations are in the [resources](./slides/) directory if you need
 to review
 * Finish today's HTML coding exercise and push
 * If you have yet to finish your Stock Portfolio tracker and submit a pull
