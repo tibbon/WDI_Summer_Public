@@ -1,0 +1,6 @@
+<h1>hey girl i like your <%= @shoes[0] %></h1>
+<ul>
+  <% @options.each_with_index do |option, i| %>
+    <li><a href="choice/<%= i %>"><%= option %></a></li>
+  <% end %>
+</ul>
