@@ -1,5 +1,16 @@
 # Homework Assignmetns
 
+## Assigned 06/24/2013
+* Check out the readings, for reference, that David uploaded
+[here](./assignments/html_reading.md). These are for casual purusal. 
+* The presentations from today are in the [slides](./slides/) directory if you need
+to review
+* Finish today's HTML coding exercise and push
+* If you have yet to finish your Stock Portfolio tracker and submit a pull
+request, *work on this tonight*. We will do an additional coding exercise with it
+tomorrow morning. 
+
+
 ## Assigned 06/20/2013
 
 ### Read about Classes and Objects
