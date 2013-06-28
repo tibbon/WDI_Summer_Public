@@ -1,9 +1,10 @@
-## Postgres Cheat Sheet
+# Postgres Cheat Sheet
 
 connect to postgres
 
+First open the PostgresApp. You should see an elephant in your menubar. Then run the following.
 ```bash
-$ sql
+$ psql
 ```
 
 list databases
@@ -77,3 +78,17 @@ run a sql file
 ```bash
 $ psql -d database_name -f file_name.sql
 ```
+
+##Postgres Setup
+[Download and Install the Postgres App](http://postgresapp.com/)
+Make sure to put your PostgresApp in your Applications Folder
+
+Add the following line to your .bash_profile
+```bash
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+```
+
+Restart your terminal.
+
+Make sure if you type `which psql` in your terminal you get `/Applications/Postgres.app/Contents/MacOS/bin/psql`
+

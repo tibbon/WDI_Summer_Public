@@ -49,3 +49,8 @@ open the current directory in the sublime
 ```bash
 $ subl .
 ```
+
+edit bash profile
+```bash
+$ subl ~/.bash_profile
+```
