@@ -51,10 +51,12 @@ post '/contacts' do
 end
 
 post '/contacts/delete' do
-  "concrete shoes"
-  # figure out who to off
-  # write some sql to off them
-  # go someplace
+  id = params[:id]
+  db = PG.connect(:dbname => 'address_book', :host => 'localhost')
+  sql = "DELETE FROM contacts WHERE id = #{id}"
+  db.exec(sql)
+  db.close
+  redirect to "/contacts"
 end
 
 get '/contacts/:id/edit' do
