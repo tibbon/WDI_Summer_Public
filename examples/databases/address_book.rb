@@ -1,5 +1,7 @@
-# This code establishes a connection to postgres and let's us read
-# and write to the database in ruby from the terminal
+# This file establishes a connection to postgres and
+# takes user input from the terminal and let's us read and
+# write to the database
+
 # use this code to create an address book in sinatra
 # create an input form
 # add a person
@@ -15,19 +17,14 @@ puts "Hey gurl"
 # put them in a string with string interpolation
 puts "what's your first name?"
 first = gets.chomp
-
 puts "what's your last name?"
 last = gets.chomp
-
 puts "how old are you?"
 age = gets.chomp.to_i
-
 puts "what's your gender? m/f/o?"
 gender = gets.chomp
-
-puts "are you down to get down? t/f"
+puts "are you down to get down? true/false"
 dtgd = gets.chomp
-
 puts "cool what's your number?"
 phone = gets.chomp
 
@@ -35,15 +32,20 @@ phone = gets.chomp
 db = PG.connect(:dbname => 'address_book', :host => 'localhost')
 
 # stores some sql code in a variable
-sql = "insert into contacts (first, last, age, gender, dtgd, phone) values ('#{first}', '#{last}', #{age}, '#{gender}', '#{phone}')"
+sql = "insert into contacts (first, last, age, gender, dtgd, phone)"\
+      "values ('#{first}', '#{last}', #{age}, '#{gender}', #{dtgd}, '#{phone}')"
+
 # execute the sql code
 db.exec(sql)
 
-# Show the contacts
+# Sql code to show the contacts
 sql = "select first, age from contacts"
-# we iterate through the results
-db.exec(sql) do |result|
-  result.each do |row|
+
+# Execute the sql code
+# Iterate through the result
+# Display each row of results
+db.exec(sql) do |rows|
+  rows.each do |row|
     puts row
   end
 end
