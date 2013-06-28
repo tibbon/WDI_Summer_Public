@@ -1,5 +1,6 @@
--- DROP DATABASE address_book;
--- CREATE DATABASE address_book;
+-- Creates a table in our address_book database
+-- Requires a database called address_book
+-- Run from the terminal with psql -d address_book -f contacts.sql
 CREATE TABLE contacts
 (
   first VARCHAR(25),
