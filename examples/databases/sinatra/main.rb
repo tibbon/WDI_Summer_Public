@@ -37,6 +37,13 @@ post '/contacts' do
   redirect to '/contacts'
 end
 
+post '/contacts/delete' do
+  "concrete shoes"
+  # figure out who to off
+  # write some sql to off them
+  # go someplace
+end
+
 # Make a new contact
 get '/contacts/new' do
   erb :form

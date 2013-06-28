@@ -1,2 +1,6 @@
 <h1>hello from contacts/<%= @contact['first'] %></h1>
 <p><%= @contact['phone'] %></p>
+
+<form action="/contacts/delete" method="post">
+  <button>Delete Contact</button>
+</form>
