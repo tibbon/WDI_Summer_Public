@@ -2,7 +2,7 @@
 
 ## Assigned 07/01/2013
 * Submit pull request by 09:00 tomorrow morning
-* [Movie Produciton Homework](https://github.com/clearf/sinatra-movie-production/)
+* [Movie Production Homework](https://github.com/clearf/sinatra-movie-production/)
 * Skim the [CSS References here](https://github.com/tibbon/WDI_Summer_Public/blob/master/links.md#css-reading)
 
 ## Assigned 06/28/2013
