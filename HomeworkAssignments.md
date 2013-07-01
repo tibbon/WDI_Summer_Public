@@ -1,5 +1,10 @@
 # Homework Assignmetns
 
+## Assigned 07/01/2013
+* Submit pull request by 09:00 tomorrow morning
+* [Movie Produciton Homework](https://github.com/clearf/sinatra-movie-production/)
+* Skim the [CSS References here](https://github.com/tibbon/WDI_Summer_Public/blob/master/links.md#css-reading)
+
 ## Assigned 06/28/2013
 * Please submit your pull request by the end of day on Sunday, June 30th.
 * https://github.com/clearf/sinatra-to-do-homework
