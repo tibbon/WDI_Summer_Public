@@ -7,6 +7,7 @@
 * Repos from today:
  * https://github.com/tibbon/game_of_thrones_sinatra
  * https://github.com/clearf/sinatra-to-do-homework/tree/code-example
+ * https://github.com/tibbon/html_css_walkthrough
 
 ## Assigned 06/28/2013
 * Please submit your pull request by the end of day on Sunday, June 30th.
