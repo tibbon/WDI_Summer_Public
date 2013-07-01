@@ -4,6 +4,9 @@
 * Submit pull request by 09:00 tomorrow morning
 * [Movie Production Homework](https://github.com/clearf/sinatra-movie-production/)
 * Skim the [CSS References here](https://github.com/tibbon/WDI_Summer_Public/blob/master/links.md#css-reading)
+* Repos from today:
+ * https://github.com/tibbon/game_of_thrones_sinatra
+ * https://github.com/clearf/sinatra-to-do-homework/tree/code-example
 
 ## Assigned 06/28/2013
 * Please submit your pull request by the end of day on Sunday, June 30th.
