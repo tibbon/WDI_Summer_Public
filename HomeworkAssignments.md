@@ -1,5 +1,13 @@
 # Homework Assignmetns
 
+## Assigned 06/28/2013
+* Please submit your pull request by the end of day on Sunday, June 30th.
+* https://github.com/clearf/sinatra-to-do-homework
+* If you struggled with concepts of scope and defining/calling methods, please take time to work through the examples we worked through in class
+  * https://github.com/tibbon/WDI_Summer_Public/blob/master/assignments/scope_assessment/assessment.rb
+  * Consider taking the assessment https://docs.google.com/forms/d/10A906m1JaTkShMqERdxU50OXvlD_5sr5hT7ErTK_1x0/viewform
+
+
 ## Assigned 06/24/2013
 * Check out the readings, for reference, that David uploaded
 [here](./assignments/html_reading.md). These are for casual purusal. 
