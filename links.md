@@ -35,6 +35,16 @@
 #### Misc. ruby stuff
 - [SO: p vs puts in ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
 
+
+#### CSS Reading
+- http://www.w3schools.com/cssref/css_selectors.asp
+- http://www.w3schools.com/cssref/css_units.asp
+- http://www.w3.org/WAI/GL/css2em.htm
+- http://www.sitepoint.com/new-css3-relative-font-size/
+- https://developers.google.com/fonts/docs/getting_started
+
+
+
 #### Functions
 - [Good, very basic Explanation of functions](http://www.mathopenref.com/functionsprog.html)
 - [Functions in Ruby Syntax](http://www.howtogeek.com/howto/programming/ruby/ruby-function-method-syntax/)
