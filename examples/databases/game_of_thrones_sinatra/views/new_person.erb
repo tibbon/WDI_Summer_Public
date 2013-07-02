@@ -1,16 +1,28 @@
 <form action="/people/new" method="POST">
-  Name: <input type="text" name="name"><br>
-  Weapon: <input type="text" name="weapon"><br>
-  Age: <input type="text" name="age"><br>
-  Image: <input type="text" name="image"><br>
-
-  House:
-  <select name="house_id">
-    <% @houses.each do |house| %>
-      <option value="<%= house["id"] %>">
-        <%= house["name"] %>
-      </option>
-    <% end %>
-  </select><br>
-  <button>Create New Person</button>
+  <fieldset>
+    <legend>Person</legend>
+      <label for="name">Name</label>
+      <input type="text" name="name"><br>
+      <label for="weapon">Weapon</label>
+      <input type="text" name="weapon"><br>
+      <label for="age">Age</label>
+      <input type="text" name="age"><br>
+      <label for="image">Image</label>
+      <input type="text" name="image"><br>
+      <label for="living_true">Alive</label>
+      <input type="radio" name="living" id="living_true" value="true" checked="true">
+      <label for="living_false">Dead</label>
+      <input type="radio" name="living" id="living_false" value="false"><br>
+    </fieldset>
+    <fieldset>
+      <legend>House</legend>
+      <select name="house_id">
+        <% @houses.each do |house| %>
+          <option value="<%= house["id"] %>">
+            <%= house["name"] %>
+          </option>
+        <% end %>
+      </select><br>
+    </fieldset>
+    <button>Create New Person</button>
 </form>
