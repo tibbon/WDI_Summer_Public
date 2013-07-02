@@ -1,5 +1,11 @@
 # Homework Assignmetns
 
+## Assigned 07/02/2013
+* Submit pull request by 09:00 tomorrow morning for the
+  [Active Record Movie Production Homework](https://github.com/clearf/sinatra-movie-production-active-record/)
+* Resources from today
+  *  [In-class homework review](https://github.com/clearf/sinatra-movie-production/tree/code-example)
+
 ## Assigned 07/01/2013
 * Submit pull request by 09:00 tomorrow morning
 * [Movie Production Homework](https://github.com/clearf/sinatra-movie-production/)
