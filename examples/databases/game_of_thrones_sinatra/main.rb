@@ -54,7 +54,7 @@ post '/people/new' do
   end
   image = params[:image]
   house_id = params[:house_id]
-  sql = "INSERT INTO people (name, weapon, age, image, house_id) VALUES ('#{name}', '#{weapon}', #{age}, '#{image}', #{house_id})"
+  sql = "INSERT INTO people (name, weapon, age, image, living, house_id) VALUES ('#{name}', '#{weapon}', #{age}, '#{image}', #{living}, #{house_id})"
   run_sql(sql)
   redirect to '/people'
 end
