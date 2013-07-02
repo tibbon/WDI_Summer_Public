@@ -1,1 +1,7 @@
-<%= @house %>
+<h1><%= @house['name'] %></h1>
+<strong><%= @house['motto'] %></strong>
+<div>
+  <img src="<%= @house['sigil'] %>">
+</div>
+
+<a href="/houses/<%= @house['id'] %>/new_person">Add a New Person to House <%= @house['name'] %></a>

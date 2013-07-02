@@ -78,3 +78,8 @@ get '/houses/:id' do
   @house = run_sql(sql).first
   erb :house
 end
+
+get '/houses/:id/new_person' do
+  @houses = run_sql("SELECT id, name FROM houses WHERE id = #{params[:id]}")
+  erb :new_person
+end

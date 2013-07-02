@@ -1,1 +1,6 @@
-<%= @person %>
+<h1><%= @person['name'] %></h1>
+<img src="<%= @person['image'] %>">
+<ul>
+  <li>Weapon: <%= @person['weapon'] %></li>
+  <li>Age: <%= @person['age'] %></li>
+</ul>
