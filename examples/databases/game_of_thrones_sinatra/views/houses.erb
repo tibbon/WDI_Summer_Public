@@ -1,5 +1,7 @@
 <ul>
   <% @houses.each do |house| %>
-    <li><%= house %></li>
+    <li>
+      <a href="houses/<%= house['id'] %>"><%= house %></a>
+    </li>
   <% end %>
 </ul>

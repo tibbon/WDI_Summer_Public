@@ -1,5 +1,7 @@
 <ul>
   <% @people.each do |person| %>
-    <li><%= person %></li>
+    <li>
+      <a href="people/<%= person['id'] %>"><%= person %></a>
+    </li>
   <% end %>
 </ul>
