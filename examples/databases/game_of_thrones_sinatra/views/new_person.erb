@@ -1,0 +1,16 @@
+<form action="/people/new" method="POST">
+  Name: <input type="text" name="name"><br>
+  Weapon: <input type="text" name="weapon"><br>
+  Age: <input type="text" name="age"><br>
+  Image: <input type="text" name="image"><br>
+
+  House:
+  <select name="house_id">
+    <% @houses.each do |house| %>
+      <option value="<%= house["id"] %>">
+        <%= house["name"] %>
+      </option>
+    <% end %>
+  </select><br>
+  <button>Create New Person</button>
+</form>
