@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Stylz</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- <style>
+    body {
+      background: blue;
+    }
+  </style> -->
+</head>
+<body>
+  <h1>Hello From Layout</h1>
+  <nav>
+    <ul>
+      <li class="blue">
+        <a href="/about">About</a>
+      </li>
+      <li class="green">
+        <a href="/faq">FAQ</a>
+      </li>
+      <li class="blue green">
+        <a href="/shop">shop</a>
+      </li>
+    </ul>
+  </nav>
+  <%= yield %>
+  <footer>
+    <small>2013</small>
+  </footer>
+</body>
+</html>
