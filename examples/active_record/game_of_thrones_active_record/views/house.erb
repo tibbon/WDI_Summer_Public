@@ -1,0 +1,6 @@
+<%= @house.name %>
+<ul>
+<% @house.people.each do |person| %>
+  <li><%= person.name %></li>
+<% end %>
+</ul>
