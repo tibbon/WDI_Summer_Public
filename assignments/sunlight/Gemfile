@@ -1,0 +1,8 @@
+source 'https://www.rubygems.org'
+
+gem 'sinatra'
+gem 'sunlight'
+gem 'pg'
+gem 'pry'
+gem 'rake'
+gem 'sinatra-activerecord'
