@@ -3,6 +3,8 @@
 
 require 'pry'
 
+NAMES =  %w(David Chris Sherri Vanessa Tiffany Tony Sheena Robyn Kylie Beth Liz Stu)
+
 class RecordLabel
   attr_accessor :roster
   def initialize
@@ -12,9 +14,8 @@ end
 
 class Hoe
   attr_accessor :name
-  @@names =  %w(David Chris Sherri Vanessa Tiffany Tony Sheena Robyn Kylie Beth Liz Stu)
   def initialize
-    @name = @@names.sample
+    @name = NAMES.sample
   end
 end
 
@@ -68,7 +69,7 @@ ludacris[:occupations].count
 # Create a method so that adds a hoe to an area code
 # Comment out your earlier ludacris code
 
-# Edit the Hoe's initialization method so that they get a randomly assigned area code
-# move the class code into separate files for RecordLable, Hoe and Artist
+# Edit the Hoe's initialization method so that they get a randomly assigned area code.
+# Move the class code into separate files for RecordLable, Hoe and Artist
 
 binding.pry
