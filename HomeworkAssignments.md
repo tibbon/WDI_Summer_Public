@@ -1,7 +1,7 @@
 # Homework Assignmetns
 
 ## Assigned 07/05/2013
-* Catch up on all your old homework assignment
+* Catch up on all your old homework assignment. This is very important. For many of you, we need to see pull requests on a much higher % of your homework!
 * Read the [Ruby Style Guide]() and go back and apply it to your old projects, making sure tabs are there, 
 variable names are descriptive, etc. 
 
