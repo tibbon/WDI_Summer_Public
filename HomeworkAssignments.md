@@ -1,5 +1,8 @@
 # Homework Assignmetns
 
+## Assigned 07/03/2013
+* [Sunlight](https://github.com/phlco/sunlight)
+
 ## Assigned 07/02/2013
 * Submit pull request by 09:00 tomorrow morning for the
   [Active Record Movie Production Homework](https://github.com/clearf/sinatra-movie-production-active-record/)
