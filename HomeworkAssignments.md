@@ -1,5 +1,10 @@
 # Homework Assignmetns
 
+## Assigned 07/05/2013
+* Catch up on all your old homework assignment
+* Read the [Ruby Style Guide]() and go back and apply it to your old projects, making sure tabs are there, 
+variable names are descriptive, etc. 
+
 ## Assigned 07/03/2013
 * [Sunlight](https://github.com/phlco/sunlight)
 
