@@ -1,5 +1,13 @@
 # Homework Assignmetns
 
+## Assigned 07/05/2013
+* Catch up on all your old homework assignment. This is very important. For many of you, we need to see pull requests on a much higher % of your homework!
+* Read the [Ruby Style Guide]() and go back and apply it to your old projects, making sure tabs are there, 
+variable names are descriptive, etc. 
+
+## Assigned 07/03/2013
+* [Sunlight](https://github.com/phlco/sunlight)
+
 ## Assigned 07/02/2013
 * Submit pull request by 09:00 tomorrow morning for the
   [Active Record Movie Production Homework](https://github.com/clearf/sinatra-movie-production-active-record/)
