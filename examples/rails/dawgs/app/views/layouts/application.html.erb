@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dawgs</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/">Home</a>
+  <a href="/dogs">See Dogs</a>
+  <a href="/dogs/new">Make a dog</a>
+<%= yield %>
+
+</body>
+</html>

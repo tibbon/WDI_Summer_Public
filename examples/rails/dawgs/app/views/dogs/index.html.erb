@@ -1,0 +1,6 @@
+<h1>What up dawg</h1>
+<% @dogs.each do |dog| %>
+  <a href="/dogs/<%= dog.id %>">
+    <%= dog.name %>
+  </a>
+<% end %>
