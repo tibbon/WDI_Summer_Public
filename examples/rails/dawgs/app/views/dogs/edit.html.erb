@@ -1,7 +1,14 @@
 <h1>Edit Dog</h1>
 <form action="/dogs/<%= @dog.id %>" method="post">
+  <!--
+    http://guides.rubyonrails.org/v3.2.13/security.html#cross-site-request-forgery-csrf
+  -->
   <%= token_tag form_authenticity_token %>
   <input type="text" name="name" value="<%= @dog.name %>">
+  <!--
+    Not all http verbs are supported by all browsers
+    So we use a hidden input field to tell rails to do a put
+  -->
   <input type="hidden" name="_method" value="put">
   <button>Update Dog</button>
 </form>
