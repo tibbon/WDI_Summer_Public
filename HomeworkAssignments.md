@@ -1,5 +1,13 @@
 # Homework Assignmetns
 
+## Assigned 07/08/2013
+* Fork and complete the [rails-todo](https://github.com/clearf/rails-todo) Homework. Use a pull request to turn in when done. 
+* Read the [Rails README](https://github.com/tibbon/WDI_Summer_Public/blob/master/examples/rails/calculator/README.rdoc#description-of-contents)
+* Resources
+  * [Calc app](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/rails/calculator)
+  * [Dawgs app](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/rails/dawgs)
+
+
 ## Assigned 07/05/2013
 * Catch up on all your old homework assignment. This is very important. For many of you, we need to see pull requests on a much higher % of your homework!
 * Read the [Ruby Style Guide]() and go back and apply it to your old projects, making sure tabs are there, 
