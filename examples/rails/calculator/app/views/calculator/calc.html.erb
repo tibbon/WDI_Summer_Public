@@ -1,0 +1,9 @@
+<h1>I know math</h1>
+<form action="calculator" method="get">
+  <input type="number" name="x">
+  <input type="text" name="operator">
+  <input type="number" name="y">
+  <button>Calculate</button>
+</form>
+
+<%= "The answer is #{@answer}" if @answer.present? %>

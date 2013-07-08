@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/">Home</a>
+  <a href="/about">About me</a>
+  <!-- go to a calculator controller -->
+  <!-- render a page with a form -->
+  <!-- the form will have 3 inputs -->
+  <!-- the form method will be a get -->
+  <a href="/calculator">Calculate</a>
+<%= yield %>
+
+</body>
+</html>
