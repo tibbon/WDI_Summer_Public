@@ -1,7 +1,7 @@
 # Homework Assignmetns
 
 ## Assigned 07/08/2013
-* Fork and complete the [rails-todo](https://github.com/clearf/rails-todo) Homework. Use a pull request to turn in when done. 
+* Fork and complete the [rails-todo](https://github.com/phlco/rails_todo) Homework. Use a pull request to turn in when done. 
 * Read the [Rails README](https://github.com/tibbon/WDI_Summer_Public/blob/master/examples/rails/calculator/README.rdoc#description-of-contents)
 * Resources
   * [Calc app](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/rails/calculator)
