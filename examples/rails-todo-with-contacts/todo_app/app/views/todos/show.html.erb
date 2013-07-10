@@ -1,0 +1,15 @@
+<h2>Task</h2>
+<p>Name: <%= @todo.task %></p>
+<p>Description: <%= @todo.description %></p>
+<p>Due Date: <%= @todo.due_date %></p>
+<p>Completed: <%= @todo.completed %></p>
+<p>Contacts:<br/> <% @todo.contacts.each do |person| %>
+    <%= person.name %><br/>
+  <% end %></p>
+
+<a href="/todos/<%= @todo.id %>/edit">Edit Task</a>
+<br/><br/>
+<form action="/todos/<%= @todo.id %>" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <button>Delete Task</button>
+</form>

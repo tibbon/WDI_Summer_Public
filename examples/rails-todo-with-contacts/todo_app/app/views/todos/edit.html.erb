@@ -1,0 +1,19 @@
+<h1>Edit Task</h1>
+<form action="/todos/<%= @todo.id %>" method="post">
+  Task: <input type="text" name="task" value="<%= @todo.task %>"><br/>
+  Description: <input type="text" name="description" value="<%= @todo.description %>"><br/>
+  Due Date: <input type="text" name="due_date" value="<%= @todo.due_date %>"><br/>
+  Completed (true/false): <input type="text" name="completed" value="<%= @todo.completed %>"><br/>
+  Contacts: <br/>
+  <% @contacts.each do |person| %>
+    <% if @todo.contact_ids.include?(person.id) %>
+      <input type="checkbox" name="contact" value="<%= person.id %>" checked><%= person.name %><br>
+    <% else %>
+      <input type="checkbox" name="contact" value="<%= person.id %>"><%= person.name %><br>
+    <% end %>
+  <% end %>
+    </select><br/>
+  <input type="hidden" name="_method" value="put">
+  <button>Edit</button>
+</form>
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TodoApp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <nav>
+    <%= link_to("Home", root_path) %> |
+    <%= link_to("Tasks", todos_path) %>
+    <%= link_to("Add a task", new_todo_path) %>
+    <%= link_to("Contacts", contacts_path) %> |
+    <%= link_to("New Contact", new_contact_path) %> |
+    <%= link_to "Aboot", aboot_path %>
+  </nav>
+
+  <%= yield %>
+
+</body>
+</html>
