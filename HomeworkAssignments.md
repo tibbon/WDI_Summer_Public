@@ -2,7 +2,7 @@
 
 ## Assigned 07/10/2013
 * Resources
- * Read about [partials](http://guides.rubyonrails.org/v3.2.13/layouts_and_rendering.html)
+ * Read about [partials](http://guides.rubyonrails.org/v3.2.13/layouts_and_rendering.html#using-partials)
  * Extensions of the "todo" app that we did in class
  [code](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/rails-todo-with-contacts/todo_app)
  and [commits](https://github.com/tibbon/WDI_Summer_Public/commits/master). Commits will help you see specific changes!
