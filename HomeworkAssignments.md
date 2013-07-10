@@ -1,6 +1,7 @@
 # Homework Assignmets
 
 ## Assigned 07/10/2013
+* [Homework](https://github.com/clearf/private-imdb)
 * Resources
  * Read about [partials](http://guides.rubyonrails.org/v3.2.13/layouts_and_rendering.html#using-partials)
  * Extensions of the "todo" app that we did in class
