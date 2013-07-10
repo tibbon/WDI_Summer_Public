@@ -1,5 +1,19 @@
 class TodosController < ApplicationController
 
+  # POST
+  # /todos/:id/add_contact
+  # add_todo_contact_path for linking
+  def add_contact
+    todo = Todo.find(params[:id])
+    # SELECT * FROM TODOS WHERE id = params[:id]
+
+    contact = Contact.find(params[:contact_id])
+    # SELECT * FROM CONTACTS WHERE id = params[:contact_id]
+    todo.contacts << contact
+
+    redirect_to todo
+  end
+
   def index
     @todos = Todo.all
   end
@@ -21,6 +35,8 @@ class TodosController < ApplicationController
 
   def show
     @todo = Todo.find(params[:id])
+    all_contacts = Contact.all
+    @available_contacts = all_contacts - @todo.contacts
   end
 
   def edit
