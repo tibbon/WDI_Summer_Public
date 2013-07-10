@@ -1,10 +1,21 @@
 class TodosController < ApplicationController
 
+  def search
+    @todos = Todo.where(task: params[:task])
+    render "index"
+  end
 
   def add_contact
     contact = Contact.find params[:user_id]
     todo = Todo.find params[:id]
-    todo.contacts << todo
+    todo.contacts << contact
+    redirect_to todo
+  end
+
+  def remove_contact
+    contact = Contact.find params[:user_id]
+    todo = Todo.find params[:id]
+    todo.contacts.destroy(contact)
     redirect_to todo
   end
 
