@@ -1,5 +1,12 @@
 # Homework Assignmets
 
+## Assigned 07/10/2013
+* Resources
+ * Read about [partials](http://guides.rubyonrails.org/v3.2.13/layouts_and_rendering.html#using-partials)
+ * Extensions of the "todo" app that we did in class
+ [code](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/rails-todo-with-contacts/todo_app)
+ and [commits](https://github.com/tibbon/WDI_Summer_Public/commits/master). Commits will help you see specific changes!
+
 ## Assigned 07/09/2013
 * Fork and complete the new [rails todo](https://github.com/clearf/rails-todo-with-contacts/). 
 * Follow [these instructions](https://gist.github.com/clearf/5961089) to point your homework from yesterday to your fork of the new repo
