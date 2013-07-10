@@ -3,9 +3,19 @@
 <p>Description: <%= @todo.description %></p>
 <p>Due Date: <%= @todo.due_date %></p>
 <p>Completed: <%= @todo.completed %></p>
-<p>Contacts:<br/> <% @todo.contacts.each do |person| %>
+<p>Contacts on the task:<br/> <% @todo.contacts.each do |person| %>
     <%= person.name %><br/>
-  <% end %></p>
+  <% end %>
+</p>
+
+<p>Contacts not on the task</p>
+<ul>
+  <% @available_contacts.each do |contact| %>
+  <li>
+    <%= contact.name %>
+  </li>
+  <% end %>
+</ul>
 
 <a href="/todos/<%= @todo.id %>/edit">Edit Task</a>
 <br/><br/>

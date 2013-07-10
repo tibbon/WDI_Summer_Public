@@ -1,5 +1,13 @@
 class TodosController < ApplicationController
 
+
+  def add_contact
+    contact = Contact.find params[:user_id]
+    todo = Todo.find params[:id]
+    todo.contacts << todo
+    redirect_to todo
+  end
+
   def index
     @todos = Todo.all
   end
@@ -21,10 +29,11 @@ class TodosController < ApplicationController
 
   def show
     @todo = Todo.find(params[:id])
+    all_contacts = Contact.all
+    @available_contacts = all_contacts - @todo.contacts
   end
 
   def edit
-    params[:id]
     @todo = Todo.find(params[:id])
     @contacts = Contact.all
   end

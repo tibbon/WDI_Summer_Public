@@ -1,10 +1,6 @@
 <h2>Todos</h2>
+<ul>
 <% @todos.each do |todo| %>
-  <a href="/todos/<%= todo.id %>">
-    <%= todo.task %><br/>
-  </a>
-  <%= link_to(todo.task, todo_path(todo.id))%>
-  <%= link_to(todo.task, todo_path(todo))%>
-  <%= link_to todo.task, todo_path(todo) %>
-
+  <li><%= link_to todo.task, todo_path(todo) %></li>
 <% end %>
+</ul>
