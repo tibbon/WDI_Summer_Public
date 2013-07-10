@@ -1,7 +1,8 @@
 # Homework Assignmets
 
 ## Assigned 07/10/2013
-* [Movie/Actor Homework](https://github.com/clearf/private-imdb); instructions on the process for forking, pushing your local repo to the forked repo, and doing a pull request are [here](https://github.com/clearf/private-imdb/blob/master/README.md)
+* [Movie/Actor Homework](https://github.com/clearf/private-imdb).  
+ * instructions on the process for forking, pushing your local repo to the forked repo, and doing a pull request are [here](https://github.com/clearf/private-imdb/blob/master/README.md)
 * Resources
  * Read about [partials](http://guides.rubyonrails.org/v3.2.13/layouts_and_rendering.html#using-partials)
  * Extensions of the "todo" app that we did in class
