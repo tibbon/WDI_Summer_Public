@@ -1,6 +1,2 @@
 <h2>Todos</h2>
-<ul>
-<% @todos.each do |todo| %>
-  <li><%= link_to todo.task, todo_path(todo) %></li>
-<% end %>
-</ul>
+<%= render @todos %>

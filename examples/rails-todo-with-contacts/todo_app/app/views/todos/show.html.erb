@@ -3,16 +3,22 @@
 <p>Description: <%= @todo.description %></p>
 <p>Due Date: <%= @todo.due_date %></p>
 <p>Completed: <%= @todo.completed %></p>
-<p>Contacts on the task:<br/> <% @todo.contacts.each do |contact| %>
-    <%= contact.name %><br/> <%= button_to "remove contact", remove_todo_contact_path(@todo, user_id: contact.id) %>
-  <% end %>
+<p>Contacts on the task:
+  <ul>
+    <% @todo.contacts.each do |contact| %>
+    <li>
+      <%= render partial: contact %>
+      <%= button_to "remove contact", remove_todo_contact_path(@todo, user_id: contact.id) %>
+    </li>
+    <% end %>
+  </ul>
 </p>
 
 <p>Contacts not on the task</p>
 <ul>
   <% @available_contacts.each do |contact| %>
   <li>
-    <%= contact.name %> <%= button_to "add to todo", add_todo_contact_path(@todo, user_id: contact.id) %>
+    <%= render partial: contact %> <%= button_to "assign contact", add_todo_contact_path(@todo, user_id: contact.id) %>
   </li>
   <% end %>
 </ul>
