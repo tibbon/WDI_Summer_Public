@@ -1,8 +1,12 @@
 <h2>Contact</h2>
 <p>Name: <%= @contact.name %></p>
-<p>Tasks:<br/> <% @contact.todos.each do |todo| %>
-    <%= todo.task %><br/>
-  <% end %></p>
+
+
+<p>Tasks:<br/>
+
+ 
+  <%= render partial: 'todos/todo', collection: @contact.todos %>
+</p>
 
 <a href="/contacts/<%= @contact.id %>/edit">Edit Contact</a>
 <br/><br/>
