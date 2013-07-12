@@ -1,5 +1,8 @@
 # Homework Assignmets
 
+## Assigned 07/12/2013
+* Wireframe your project and concetually develop your models 
+
 ## Assigned 07/10/2013
 * [Movie/Actor Homework](https://github.com/clearf/private-imdb).  
  * instructions on the process for forking, pushing your local repo to the forked repo, and doing a pull request are [here](https://github.com/clearf/private-imdb/blob/master/README.md)
