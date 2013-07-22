@@ -4,6 +4,13 @@
 * Phil's [JS fiddle](http://jsfiddle.net/kxZkb/) from this morning.
 * Phil's [other JS notes](https://github.com/tibbon/WDI_Summer_Public/tree/master/intro_to_js)
 * [lab/homework](https://github.com/tibbon/javascript-geometry-function-hw-lab), due 9:00 tomorrow.
+* Read [Basic Javascript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) sections 1-10, 15 and 17. 
+* Watch [JavaScript: The Good Parts](http://www.youtube.com/watch?v=hQVTIJBZook)
+* Look over various style guides in preparation for discussion on how they are similar/different
+  * [Airbnb](https://github.com/airbnb/javascript)
+  * [Crockford](http://javascript.crockford.com/code.html)
+  * [jQuery](http://contribute.jquery.org/style-guide/js/)
+  * [Node](https://npmjs.org/doc/coding-style.html)
 
 ## Resources 07/16/2013
 * [Basic Login Example](https://github.com/tibbon/auth_from_scratch/)
