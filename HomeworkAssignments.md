@@ -2,6 +2,7 @@
 
 ## Assigned and Resources 07/22/2013
 * Phil's [JS fiddle](http://jsfiddle.net/kxZkb/) from this morning.
+* Phil's [other JS notes](https://github.com/tibbon/WDI_Summer_Public/tree/master/intro_to_js)
 * [lab/homework](https://github.com/tibbon/javascript-geometry-function-hw-lab), due 9:00 tomorrow.
 
 ## Resources 07/16/2013
