@@ -1,5 +1,15 @@
 # Homework Assignmets
 
+## Assigned and Resources 07/22/2013
+* Phil's [JS fiddle](http://jsfiddle.net/kxZkb/) from this morning.
+* [lab/homework](https://github.com/tibbon/javascript-geometry-function-hw-lab), due 9:00 tomorrow.
+
+## Resources 07/16/2013
+* [Basic Login Example](https://github.com/tibbon/auth_from_scratch/)
+
+## Resources 07/16/2013
+* [Hogwortz Example](https://github.com/phlco/hogwartz)
+
 ## Assigned 07/12/2013
 * Wireframe your project and concetually develop your models 
 
