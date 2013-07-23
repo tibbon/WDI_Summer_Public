@@ -3,7 +3,7 @@
 ## Assigned and Resources 07/22/2013
 * In class resources
  * Phil's [JS fiddle](http://jsfiddle.net/kxZkb/) from this morning.
- * Phil's [other JS notes](https://github.com/tibbon/WDI_Summer_Public/tree/master/intro_to_js)
+ * Phil's [other JS notes](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/intro_to_js)
 * *Homework* [lab/homework](https://github.com/tibbon/javascript-geometry-function-hw-lab), due 9:00 tomorrow.
 * Readings
   * Read [Basic Javascript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) sections 1-10, 15 and 17. 
