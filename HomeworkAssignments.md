@@ -1,5 +1,11 @@
 # Homework Assignmets
 
+## Assigned and Resources 07/23/2012
+* Homework: [ATM](https://github.com/clearf/javascript_atm)
+* Resources
+ * Chris's [DOM intro](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/dom_intro)
+* 
+
 ## Assigned and Resources 07/22/2013
 * In class resources
  * Phil's [JS fiddle](http://jsfiddle.net/kxZkb/) from this morning.
