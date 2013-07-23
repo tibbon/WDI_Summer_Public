@@ -1,8 +1,8 @@
 # Homework Assignmets
 
 ## Assigned and Resources 07/23/2012
-* Homework: [ATM](https://github.com/clearf/javascript_atm)
-* Readings:
+* [ATM](https://github.com/clearf/javascript_atm) Homework
+* Readings
  * Look at this beautiful [DOM](http://www.w3schools.com/htmldom/) picture
   * Draw a similar one for the homework
  * [Javascript and the DOM](https://developer.apple.com/library/mac/#documentation/AppleApplications/Conceptual/SafariJSProgTopics/Concepts/AboutJavaScript.html#//apple_ref/doc/uid/30001231-BAJGJJAH)
