@@ -1,5 +1,23 @@
 # Homework Assignmets
 
+## Assigned and Resources 07/24/2013
+* Read about Closures for tomorrow
+ * [Wikipedia on Closures](http://en.wikipedia.org/wiki/Closure_(computer_science\))
+ * [SO on Javascript Closures](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+* Resources
+ * [SO on adding event handlers](http://stackoverflow.com/questions/15564029/adding-to-window-onload-event)
+
+## Assigned and Resources 07/23/2012
+* [ATM](https://github.com/clearf/javascript_atm) Homework
+* Readings
+ * Look at this beautiful [DOM](http://www.w3schools.com/htmldom/) picture
+  * Draw a similar one for the homework
+ * [Javascript and the DOM](https://developer.apple.com/library/mac/#documentation/AppleApplications/Conceptual/SafariJSProgTopics/Concepts/AboutJavaScript.html#//apple_ref/doc/uid/30001231-BAJGJJAH)
+ * [Using the DOM from Javascript](https://developer.apple.com/library/mac/#documentation/AppleApplications/Conceptual/SafariJSProgTopics/Tasks/DOM.html#//apple_ref/doc/uid/30001237-BAJGJJAH)
+
+* Resources
+ * Chris's [DOM intro](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/dom_intro) 
+
 ## Assigned and Resources 07/22/2013
 * In class resources
  * Phil's [JS fiddle](http://jsfiddle.net/kxZkb/) from this morning.
