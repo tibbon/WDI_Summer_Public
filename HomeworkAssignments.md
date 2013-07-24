@@ -1,5 +1,8 @@
 # Homework Assignmets
 
+## Assigned and Resources
+* [Wikipedia on Closures](http://en.wikipedia.org/wiki/Closure_(computer_science))
+
 ## Assigned and Resources 07/23/2012
 * [ATM](https://github.com/clearf/javascript_atm) Homework
 * Readings
