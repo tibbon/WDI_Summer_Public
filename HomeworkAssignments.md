@@ -4,6 +4,8 @@
 * Read about Closures for tomorrow
  * [Wikipedia on Closures](http://en.wikipedia.org/wiki/Closure_(computer_science\))
  * [SO on Javascript Closures](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+* Resources
+ * [SO on adding event handlers](http://stackoverflow.com/questions/15564029/adding-to-window-onload-event)
 
 ## Assigned and Resources 07/23/2012
 * [ATM](https://github.com/clearf/javascript_atm) Homework
