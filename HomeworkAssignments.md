@@ -1,4 +1,4 @@
-# Homework Assignmets
+# Homework Assignments
 
 ## Assigned and Resources 07/23/2012
 * [ATM](https://github.com/clearf/javascript_atm) Homework
