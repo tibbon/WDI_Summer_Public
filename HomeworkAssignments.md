@@ -1,8 +1,10 @@
 # Homework Assignmets
 
 ## Assigned and Resources 07/25/2013
-* [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
-* [MTA with closures](https://gist.github.com/phlco/6080705)
+* Homework: [MTA lab underscore](phlco/mta_underscore)
+* Resources
+ * [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
+ * [MTA with closures](https://gist.github.com/phlco/6080705)
 
 ## Assigned and Resources 07/24/2013
 * [Carousel Lab](https://github.com/phlco/img_carousel_js)
