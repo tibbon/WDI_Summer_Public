@@ -1,6 +1,10 @@
 # Homework Assignmets
 
 ## Assigned and Resources 07/24/2013
+* [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
+* [MTA with closures](https://gist.github.com/phlco/6080705)
+
+## Assigned and Resources 07/24/2013
 * [Carousel Lab](https://github.com/phlco/img_carousel_js)
 * Resources
  * [SO on adding event handlers](http://stackoverflow.com/questions/15564029/adding-to-window-onload-event)
