@@ -6,7 +6,7 @@
  * [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
  * [MTA with closures](https://gist.github.com/phlco/6080705)
  * Read through some of the underscore [annotated source](http://underscorejs.org/docs/underscore.html)
-  * This will increase your understanding of both underscore and javascript!
+    * This will increase your understanding of both underscore and javascript!
 
 ## Assigned and Resources 07/24/2013
 * [Carousel Lab](https://github.com/phlco/img_carousel_js)
