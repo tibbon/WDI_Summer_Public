@@ -1,7 +1,7 @@
 # Homework Assignmets
 
 ## Assigned and Resources 07/25/2013
-* Homework: [MTA lab underscore](phlco/mta_underscore)
+* Homework: [MTA lab underscore](https://github.com/phlco/mta_underscore)
 * Resources
  * [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
  * [MTA with closures](https://gist.github.com/phlco/6080705)
