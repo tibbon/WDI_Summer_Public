@@ -1,5 +1,9 @@
 # Homework Assignmets
 
+## Assigned and resources 07/26/2013
+* Chris's [underscore](https://github.com/tibbon/WDI_Summer_Public/blob/master/examples/underscore_functions/js/underscore_intro.js) notes.
+* [FizzBuzz](https://github.com/tibbon/WDI_Summer_Public/tree/master/assignments/fizzbuzz)
+
 ## Assigned and Resources 07/25/2013
 * Homework: [MTA lab underscore](https://github.com/phlco/mta_underscore)
 * Resources
