@@ -1,6 +1,58 @@
 # Homework Assignmets
 
+## Assigned and Resources 07/25/2013
+* Homework: [MTA lab underscore](https://github.com/phlco/mta_underscore)
+* Resources
+ * [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
+ * [MTA with closures](https://gist.github.com/phlco/6080705)
+ * Read through some of the underscore [annotated source](http://underscorejs.org/docs/underscore.html)
+    * This will increase your understanding of both underscore and javascript!
+
+## Assigned and Resources 07/24/2013
+* [Carousel Lab](https://github.com/phlco/img_carousel_js)
+* Resources
+ * [SO on adding event handlers](http://stackoverflow.com/questions/15564029/adding-to-window-onload-event)
+* *Read* about Closures for tomorrow
+ * [Wikipedia on Closures](http://en.wikipedia.org/wiki/Closure_(computer_science\))
+ * [SO on Javascript Closures](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+
+## Assigned and Resources 07/23/2012
+* [ATM](https://github.com/clearf/javascript_atm) Homework
+* Readings
+ * Look at this beautiful [DOM](http://www.w3schools.com/htmldom/) picture
+  * Draw a similar one for the homework
+ * [Javascript and the DOM](https://developer.apple.com/library/mac/#documentation/AppleApplications/Conceptual/SafariJSProgTopics/Concepts/AboutJavaScript.html#//apple_ref/doc/uid/30001231-BAJGJJAH)
+ * [Using the DOM from Javascript](https://developer.apple.com/library/mac/#documentation/AppleApplications/Conceptual/SafariJSProgTopics/Tasks/DOM.html#//apple_ref/doc/uid/30001237-BAJGJJAH)
+
+* Resources
+ * Chris's [DOM intro](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/dom_intro) 
+
+## Assigned and Resources 07/22/2013
+* In class resources
+ * Phil's [JS fiddle](http://jsfiddle.net/kxZkb/) from this morning.
+ * Phil's [other JS notes](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/intro_to_js)
+* *Homework* [lab/homework](https://github.com/tibbon/javascript-geometry-function-hw-lab), due 9:00 tomorrow.
+* Readings
+  * Read [Basic Javascript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html) sections 1-10, 15 and 17. 
+  * Watch [JavaScript: The Good Parts](http://www.youtube.com/watch?v=hQVTIJBZook)
+  * Look over various style guides in preparation for discussion on how they are similar/different
+      * [Airbnb](https://github.com/airbnb/javascript)
+      * [Crockford](http://javascript.crockford.com/code.html)
+      * [jQuery](http://contribute.jquery.org/style-guide/js/)
+      * [Node](https://npmjs.org/doc/coding-style.html)
+
+## Resources 07/16/2013
+* [Basic Login Example](https://github.com/tibbon/auth_from_scratch/)
+
+## Resources 07/16/2013
+* [Hogwortz Example](https://github.com/phlco/hogwartz)
+
+## Assigned 07/12/2013
+* Wireframe your project and concetually develop your models 
+
 ## Assigned 07/10/2013
+* [Movie/Actor Homework](https://github.com/clearf/private-imdb).  
+ * instructions on the process for forking, pushing your local repo to the forked repo, and doing a pull request are [here](https://github.com/clearf/private-imdb/blob/master/README.md)
 * Resources
  * Read about [partials](http://guides.rubyonrails.org/v3.2.13/layouts_and_rendering.html#using-partials)
  * Extensions of the "todo" app that we did in class
