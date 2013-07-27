@@ -1,4 +1,4 @@
-# Homework Assignmets
+# Homework Assignments
 
 ## Assigned and resources 07/26/2013
 * Chris's [underscore](https://github.com/tibbon/WDI_Summer_Public/blob/master/examples/underscore_functions/js/underscore_intro.js) notes.
