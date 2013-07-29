@@ -1,8 +1,24 @@
-# Homework Assignmets
+# Homework Assignments
+
+## Assigned and resources 07/26/2013
+* Chris's [underscore](https://github.com/tibbon/WDI_Summer_Public/blob/master/examples/underscore_functions/js/underscore_intro.js) notes.
+* [FizzBuzz](https://github.com/tibbon/WDI_Summer_Public/tree/master/assignments/fizzbuzz)
+* Resources (reading)
+  * [jQuery Fundamentals](http://jqfundamentals.com/) - Required
+  * [John Resig's Blog](http://ejohn.org/category/blog/) - Optional
+    * [Javascript as a first language](http://ejohn.org/blog/javascript-as-a-first-language/) - optional
+    * [ECMAScript Strict Mode, JSON and More](http://ejohn.org/blog/ecmascript-5-strict-mode-json-and-more/) - optional
+    * [ECMAScript 5 Objects and Properties](http://ejohn.org/blog/ecmascript-5-objects-and-properties/) - optional
+  * [jQuery Codecadmy](http://www.codecademy.com/tracks/jquery) - Required: Introducing jQuery exercises
+  * [jQuery Wikipedia](http://en.wikipedia.org/wiki/JQuery) - Required
 
 ## Assigned and Resources 07/25/2013
-* [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
-* [MTA with closures](https://gist.github.com/phlco/6080705)
+* Homework: [MTA lab underscore](https://github.com/phlco/mta_underscore)
+* Resources
+ * [Closure example](https://github.com/tibbon/WDI_Summer_Public/tree/master/examples/js_closures)
+ * [MTA with closures](https://gist.github.com/phlco/6080705)
+ * Read through some of the underscore [annotated source](http://underscorejs.org/docs/underscore.html)
+    * This will increase your understanding of both underscore and javascript!
 
 ## Assigned and Resources 07/24/2013
 * [Carousel Lab](https://github.com/phlco/img_carousel_js)
