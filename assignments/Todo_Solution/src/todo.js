@@ -30,21 +30,21 @@ var todoApp = {
   // It creates the task and passes it to the appendTask() method
   createTask: function(text) {
     // first it makes a clone of the todoItem using the create() method we defined above
-    var task = Object.create(todoItem);
+    if ( text !== "" ) {
+      var task = Object.create(todoItem);
     // next it sets the task using newTask's setTaskText() method
-    task.setTaskText(text);
+      task.setTaskText(text);
     // pass the task to the appendTask() method so that it get's added to the DOM
-    this.appendTask(task);
+      this.appendTask(task);
+    }
   },
   // This method is used to render a new todoItem as a DOM element and append it to the page
   // The new todoItem object to be rendered is passed as an argument
   appendTask: function(task) {
     // we don't want to add blank tasks
-    if (task.taskName.length !== 0) {
       // newTask's render() method returns a DOM element representing a new task
       // which we append to the end of the DOM list of todo items
       this.todoTasks().appendChild(task.render());
-    }
   }
 }
 
@@ -171,6 +171,7 @@ window.onload = function() {
   // it responds to a mouse click and an 'enter' keypress events
   var inputEvent = function(event) {
     // keyCode of 'enter' is 13, keyCode of leftclick is 0
+    console.log(event);
     if (event.keyCode === 13 || event.keyCode === 0) {
       // pass the input's value into the createTask() method
       // It will generate and append a new todo task

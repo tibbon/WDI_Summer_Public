@@ -49,7 +49,7 @@ Build out the starter DOM structure in index.html:
 
 Build out the starting structure of the javascript app in src/todo.js:
 
-- An empty todoApp object
+- An empty todoApp object literal
 - An empty todoItem object
 - (TDD) Write a test for object duplication
 - Define the Object.create() method for duplicating todoItem
@@ -61,11 +61,11 @@ Implement the basic add item functionality:
 - Use the window.onload event to pick out an 'add-item' button
 - Add an onclick event handler that will call a todoApp createTask method and input from the 'new-task-field' field as an argument
 - Implement the todoApp createTask method to:
+  - check that the new task name isn't blank
   - create a new instance of a todoItem object
   - Use the new task objects setTaskText method to set the task text from the argument
   - call the todoApp appendTask method passing the new task object as an argument
 - Implement the todoApp appendTask method to:
-  - check that the new task name isn't blank
   - call the new task render method that returns a DOM object and append it to the 'todo-items'
 - Implement the necessary todoItem methods:
   - setTaskText method to set the taskName attribute
