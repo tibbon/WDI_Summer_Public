@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Validation</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <h1>View completed site <a href="https://googledrive.com/host/0B7yK_e1LsbdVMW54akNoUnlVSUE/index.html">Here</a></h1>
+  <h3>Your Job is to replicate the demo</h3>
+
+  <div id="wrapper">
+
+    <h1>Validation</h1>
+
+    <form id="add-user-data" action="#" method="post">
+
+      <label for="user-name">Name:</label>
+      <input type="text" id="user-name" name="user-name" placeholder="username">
+      <span id="user-name-error">Name must be more than 3 characters!</span>
+
+      <label for="user-age">Age:</label>
+      <input type="text" id="user-age" name="user-age" placeholder="age">
+      <span id="user-age-error">Age must be a number!</span>
+
+      <label for="user-ph">Phone:</label>
+      <input type="tel" id="user-ph" name="user-ph" placeholder="phone">
+      <span id="user-ph-error">Phone must be valid (555-555-5555)!</span>
+
+      <label for="user-email">Email:</label>
+      <input type="email" id="user-email" name="user-email" placeholder="email">
+      <span id="user-email-error">Email must be valid!</span>
+
+      <br>
+
+      <input type="submit" value="update">
+
+    </form><!-- #add-user-data -->
+
+    <ul id="display-data"></ul><!-- #display-data -->
+
+    <div id="clear-box">
+      <button id="clear">clear</button>
+    </div><!-- #clear-box -->
+
+  </div><!-- #wrapper -->
+
+  <script src="jquery-1.8.0.min.js"></script>
+  <script src="userdata.js"></script>
+
+</body>
+</html>
