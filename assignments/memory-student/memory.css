@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Londrina+Shadow);
+@import url(http://fonts.googleapis.com/css?family=Mystery+Quest);
+
+#content {
+  margin: 0 auto;
+  width: 360px;
+}
+
+#header {
+  margin-bottom: 20px;
+}
+
+#title {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 100px;
+}
+
+#timer {
+  font-family: 'Mystery Quest', cursive;
+  font-size: 20px;
+}
+
+#controls {
+  margin-bottom: 10px;
+}
+
+.row {
+  clear: both;
+}
+
+.column {
+  border: 1px solid #595139;
+  float: left;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 50px;
+  height: 65px;
+  margin: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+}
+/* apply with toggle class */
+.hover {
+  background-color: #A6977B;
+}
+/* apply when two cards match */
+.found {
+  background-color: #595139;
+  color: #FFFFFF;
+}
+
+.won {
+  background-color: #F2F0CE;
+  border: 1px solid #83A603;
+  color: #83A603;
+}
