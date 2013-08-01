@@ -1,0 +1,100 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body{
+	font-family: Helvetica, Arial, Sans-Serif;
+	background:#fafafa;
+	color:#808080;
+}
+
+#container{
+	width:1000px;
+	margin:auto;
+}
+
+p{
+	margin:0px;
+}
+
+#new-task-field{
+	padding:10px;
+	border:none;
+	width:789px;
+	margin:0 0 0 45px;
+}
+
+.items{
+	padding:10px;
+	background: white;
+	color:#808080;
+}
+
+.meta-data{
+	color:#aaaaaa;
+	font-size:small;
+	font-style:italic;
+}
+
+#unfinished, #finished{
+	margin:10px 0 10px 0;
+	padding:10px 40px 10px 10px;
+	background:#404040;
+	color:#eeeeee;
+}
+#finished li{
+	list-style-type: none;
+}
+#finished li .items{
+	color:#aaaaaa;
+}
+
+.actions{
+	float:right;
+}
+
+button{
+	margin:0px;
+	border:none;
+}
+
+.delete{
+	background:#eecccc;
+}
+
+.complete{
+	background:#eeeeee;
+}
+
+#add-item{
+	background:#6060ff;
+	padding:10px 20px 10px 20px;
+}
+.delete:hover{
+	background:#ff6060;
+}
+
+.complete:hover{
+	background:#80ff80;
+}
+
+#add-item:hover{
+	background:#4040ff;
+}
+
+li{
+	margin:5px;
+}
+h3{
+	color:#404040;
+}
