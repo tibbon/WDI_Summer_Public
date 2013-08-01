@@ -32,3 +32,17 @@ $.ajax({
    type: 'POST'
 }).done(function(data){alert(data.combined)});
 ```
+
+Update the DOM using the response
+```html
+<ul id="my-list"></ul>
+```
+
+```javascript
+$.ajax({
+url: '/combine',
+dataType: 'json',
+data: words,
+type: 'POST'
+}).done(function(data){$("#my-list").append("<li>"+data.combined+"</li>")});
+```
