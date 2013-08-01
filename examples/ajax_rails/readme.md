@@ -13,7 +13,7 @@ This ToDo app handles 4 events:
 3. Task completion
 4. Deleting a task
 
-These events are handled through making ajax calls to the Rails back end.  The first two, page load and new task submission, make json requests.  We'll then write a function for generating and appending the task HTML from this json resonse and send it to the client in `aplication.js`.
+These events are handled through making ajax calls to the Rails back end.  The first two, page load and new task submission, make json requests.  We'll then write a function for generating and appending the task HTML from this json resonse and send it to the client in `application.js`.
 
 Since the last two events require DOM manipulation but don't return any data we make those request the javascript (.js) to do the DOM manipulation.
 
