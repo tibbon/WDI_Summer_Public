@@ -8,7 +8,7 @@
 //= require jquery_ujs
 //= require_tree .
 
-// STEP 11: Make a function that takes a task JavaScript object as an argument
+// STEP 11: Note this function that takes a task JavaScript object as an argument
 // This function will generate a DOM version of the task javasctipt object it takes as an argument
 var appendTask = function(task){
 	// Created local variables that hold the jQuery selectors for: 
@@ -31,14 +31,14 @@ var appendTask = function(task){
 	completeButton.click(function(){
 		$.ajax({
 			// STEP 24: Make the step 15 `.click()` make an ajax call to the `complete` action and set the `dataType` setting to `script`
-		)}
+		})
 	});
 
 	// Handles the click event on the delete button using Ajax
 	deleteButton.click(function(){
 		$.ajax({
 			// Step 30: Make the step 15 `deleteButton.click()` make an ajax call to the `TasksController#destroy` action and set the `dataType` setting to `script`
-		)}
+		})
 	});
 
 	// STEP 13: Set the htmlTask elements `data-id` attribute to the tasks id 
