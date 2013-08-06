@@ -44,7 +44,7 @@ describe School do
     end
   end
 
-  describe '#withdraw student' do
+  describe '#withdraw_student' do
     it "removes a student from the school" do
       school.enroll_student('Lisa Simpson', 4.0)
       school.enroll_student('Ralph Wiggum', 2.0)
