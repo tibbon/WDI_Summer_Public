@@ -1,5 +1,12 @@
 ## Git Cheatsheet
 
+set your name and email for git defaults
+
+```bash
+$ git config --global user.name 'Your Name'
+$ git config --global user.email you@somedomain.com
+```
+
 create a git repo
 
 ```bash
@@ -71,3 +78,5 @@ check status
 ```bash
 ~/code/project $ git status
 ```
+
+[Git Basics](http://gitref.org/basic/)
