@@ -1,10 +1,23 @@
-Banque!
+# Banque!
 
-Create a Single Page Rails Banking App.
+Create a Single Page Rails App that utilizes jQuery and Ajax to store and display information from the database.
 
-Requirements
+## Prerequisites
+
+- HTML/CSS
+- Ruby
+- Rails
+- JavaScript
+- jQuery
+- Ajax
+- JSON
+
+## Requirements
 
 All information should be saved to the database.
+The URL should never change from the root. ie "http://localhost:3000"
+
+Please refer to the wireframe.png
 
 The Main Accounts Page displays the Total Balance and lists each Account and its balance
 Include buttons to display Withdraw/Transfers, Add an Account, and Deposit.
@@ -17,6 +30,7 @@ The Deposit button displays a form to Select an Account and enter an Amount.
 
 Clicking on an Account name will display the Account's history.  The Account History lists Transaction Dates, Type of Transaction (withraw, deposit, transfer), Amount, and Memo.
 
-Extras
-Create a single page signup and login
+### Extras
+Add filtering to the Account History by Type
+Add sign up and login forms
 Create a display to graph an account's balance history.
