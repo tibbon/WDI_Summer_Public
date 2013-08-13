@@ -1,0 +1,31 @@
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+html, body {
+  font-family: Avenir, Arial, sans-serif;
+  margin: 10px;
+  padding: 0px 0px 0px 0px;
+}
+
+h1 {
+  font-weight: normal;
+  margin: 10px 0px;
+}
+
+#center-content {
+  margin: 0px auto;
+  width: 500px;
+}
+#content {
+  background-color: #ccc;
+  border: 1px solid black;
+  margin: 20px 0px;
+  padding: 10px;
+}
+
+.na {
+  color: #aa0000;
+  font-size: 18px;
+  font-weight: bold;
+}

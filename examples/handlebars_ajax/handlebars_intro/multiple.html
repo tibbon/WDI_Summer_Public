@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Whatever</title>
+	<script src="handlebars.js" language="javascript"></script>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script id="post-template" type="text/x-handlebars-template">
+		{{#each posts}}
+		<div>
+			<h1>{{title}}</h1>
+			<h4>{{date}}</h4>
+			<p>{{body}}</p>
+			{{#if author}}
+				<h2>By {{full_name author.first_name author.last_name}}</h2>
+			{{else}}
+				<h2>Author Unknown</h2>
+			{{/if}}
+
+			{{#each comments}}
+				<p>{{body}}</p>
+			{{else}}
+				<p>No comments</p>
+			{{/each}}
+		</div>
+		{{/each}}
+	</script>
+</head>
+<body>
+
+	<script>
+		// Like helpers in Rails, you can reformat text with a helper
+		Handlebars.registerHelper('full_name', function(first_name, last_name) {
+			return first_name + " " + last_name;
+		});
+
+		// Here we're using an AJAX request to get the data live from our server
+
+
+		$(window).scroll(function() {
+        // Cache our jQuery selector for window
+        var win = $(window);
+
+        // Infinite scroll math!
+        if(win.height() + win.scrollTop() >= $(document).height()) {
+			$.ajax({
+				type: 'GET',
+				url: 'http://localhost:3000/posts.json',
+				dataType: 'json'
+			}).done(function(data){
+				var source = $("#post-template").html();
+				var template = Handlebars.compile(source);
+				$('body').append(template(data));
+			}).fail(function(request, status, error) {
+				console.log(error);
+			});
+        }
+    });
+
+		
+	</script>
+</body>
+</html>
