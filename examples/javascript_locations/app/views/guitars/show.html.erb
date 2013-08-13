@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Make:</b>
+  <%= @guitar.make %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @guitar.model %>
+</p>
+
+
+<%= link_to 'Edit', edit_guitar_path(@guitar) %> |
+<%= link_to 'Back', guitars_path %>
