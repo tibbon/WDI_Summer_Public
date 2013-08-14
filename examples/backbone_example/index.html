@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>David Fisher Portfolio</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <script id="project-template" type="x-handlebars-template">
+    <div class="project">
+      <h2>{{name}}</h2>
+      <img src="{{thumbnail_url}}" />
+    </div>
+  </script>
+
+    <script id="detailed-project-template" type="x-handlebars-template">
+    <div class="project">
+      <h2>{{name}}</h2>
+      <img src="{{thumbnail_url}}" />
+      <p>{{description}}</p>
+      <p><a href="{{github_url}}">Code on Github</a></p>
+      <p><a href="{{live_url}}">Live demo</a></p>
+    </div>
+  </script>
+
+  <script id="projects-template" type="x-handlebars-template">
+    <div class="projects">
+    {{#each projects}}
+      {{>project}}
+    {{/each}}
+    </div>
+  </script>
+
+  <script id="appView-template" type="x-handlebars-template">
+    <h1>Projects</h1>
+    <ul id="project-list">
+    </ul>
+  </script>
+
+  <div id="main">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="https:////cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js"type="text/javascript"></script>
+    <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+    <script src="http://ajax.cdnjs.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
