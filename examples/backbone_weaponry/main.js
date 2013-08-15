@@ -31,7 +31,7 @@ var AppRouter = Backbone.Router.extend({
 		var weapon = this.weapons.get(slug);
 		var show_weapon_view = new ShowWeaponView({model: weapon});
 		show_weapon_view.render();
-	}
+	},
 	indexWeapons: function() {
 		var index_weapons_view = new IndexWeaponsView({collection: this.weapons});
 		index_weapons_view.render();
@@ -47,15 +47,49 @@ var ShowWeaponView = Backbone.View.extend({
 			template = Handlebars.compile(source),
 			templateHTML = template(this.model.toJSON());
 		$('#main').html(templateHTML); // REFACTOR THIS LINE
+
+		return this;
+	}
+});
+
+// Single view for our list
+var ListSingleWeaponView = Backbone.View.extend({
+	render: function(){
+		var source = $('#weapon-show-template').html(),
+			template = Handlebars.compile(source),
+			templateHTML = template(this.model.toJSON());
+		$('#main').append(templateHTML); // REFACTOR THIS LINE
+
+		return this;
 	}
 });
 
 // Multiple Weapons
 var IndexWeaponsView = Backbone.View.extend({
+	initialize: function () {
+		Handlebars.registerPartial('weapon', $('#weapon-show-template'))
+	},
 	render: function() {
-		debugger;
+		this.collection.each(function(weapon){
+			var view = new ListSingleWeaponView({model: weapon})
+			view.render();
+		});
+
+		return this;
 	}
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 // jQuery Onload function
 
