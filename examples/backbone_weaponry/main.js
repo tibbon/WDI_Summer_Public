@@ -54,7 +54,7 @@ var ShowWeaponView = Backbone.View.extend({
 
 // Single view for our list
 var ListSingleWeaponView = Backbone.View.extend({
-	tagName: 'div',
+	tagName: 'li',
 	events: {
 		'click':'view'
 	},
@@ -62,8 +62,8 @@ var ListSingleWeaponView = Backbone.View.extend({
 		var source = $('#weapon-show-template').html(),
 			template = Handlebars.compile(source),
 			templateHTML = template(this.model.toJSON());
-		$('#main').append(templateHTML); // REFACTOR THIS LINE
-
+		//$('#main').append(templateHTML); // REFACTOR THIS LINE
+		this.$el.html(templateHTML);
 		return this;
 	},
 	view: function() {
@@ -74,14 +74,21 @@ var ListSingleWeaponView = Backbone.View.extend({
 
 // Multiple Weapons
 var IndexWeaponsView = Backbone.View.extend({
+	el: $('#main'),
 	initialize: function () {
-		Handlebars.registerPartial('weapon', $('#weapon-show-template'))
+		// Populate the application with the IndexWeaponsView template
+		var appViewTemplate = $('#app-template').html();
+		this.$el.html(appViewTemplate);
+		
+		// Cache commonly used selector
+		this.list = $('#weapons-list');
+		// Handlebars.registerPartial('weapon', $('#weapon-show-template'))
 	},
 	render: function() {
 		this.collection.each(function(weapon){
 			var view = new ListSingleWeaponView({model: weapon})
-			view.render();
-		});
+			this.list.append(view.render().el);
+		}, this);
 
 		return this;
 	}
