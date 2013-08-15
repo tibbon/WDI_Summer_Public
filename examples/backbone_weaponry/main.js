@@ -54,6 +54,10 @@ var ShowWeaponView = Backbone.View.extend({
 
 // Single view for our list
 var ListSingleWeaponView = Backbone.View.extend({
+	tagName: 'div',
+	events: {
+		'click':'view'
+	},
 	render: function(){
 		var source = $('#weapon-show-template').html(),
 			template = Handlebars.compile(source),
@@ -61,6 +65,10 @@ var ListSingleWeaponView = Backbone.View.extend({
 		$('#main').append(templateHTML); // REFACTOR THIS LINE
 
 		return this;
+	},
+	view: function() {
+		debugger;
+		app.navigate('weapons/' + this.model.slug, true);
 	}
 });
 
