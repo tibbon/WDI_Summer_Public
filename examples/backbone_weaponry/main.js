@@ -8,6 +8,7 @@ var Weapon = Backbone.Model.extend({
 		number_slain: 9001
 	}
 });
+
 // COLLECTION: Weapons
 var Weapons = Backbone.Collection.extend({
 	model: Weapon
@@ -42,11 +43,12 @@ var AppRouter = Backbone.Router.extend({
 
 // Single
 var ShowWeaponView = Backbone.View.extend({
+	el: $('#main'),
 	render: function(){
 		var source = $('#weapon-show-template').html(),
 			template = Handlebars.compile(source),
 			templateHTML = template(this.model.toJSON());
-		$('#main').html(templateHTML); // REFACTOR THIS LINE
+		this.$el.html(templateHTML); // REFACTOR THIS LINE
 
 		return this;
 	}
@@ -62,13 +64,11 @@ var ListSingleWeaponView = Backbone.View.extend({
 		var source = $('#weapon-show-template').html(),
 			template = Handlebars.compile(source),
 			templateHTML = template(this.model.toJSON());
-		//$('#main').append(templateHTML); // REFACTOR THIS LINE
 		this.$el.html(templateHTML);
 		return this;
 	},
 	view: function() {
-		debugger;
-		app.navigate('weapons/' + this.model.slug, true);
+		app.navigate('weapons/' + this.model.get('slug'), true);
 	}
 });
 
@@ -82,7 +82,6 @@ var IndexWeaponsView = Backbone.View.extend({
 		
 		// Cache commonly used selector
 		this.list = $('#weapons-list');
-		// Handlebars.registerPartial('weapon', $('#weapon-show-template'))
 	},
 	render: function() {
 		this.collection.each(function(weapon){
@@ -94,20 +93,7 @@ var IndexWeaponsView = Backbone.View.extend({
 	}
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
 // jQuery Onload function
-
 $(function(){
 	app = new AppRouter;
 	Backbone.history.start();
