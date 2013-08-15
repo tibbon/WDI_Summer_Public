@@ -28,8 +28,7 @@ var AppRouter = Backbone.Router.extend({
 	showWeapon: function(slug){
 		// Single weapon
 		var weapon = this.weapons.get(slug);
-		debugger;
-		var show_weapon_view = new ShowWeaponView;
+		var show_weapon_view = new ShowWeaponView({model: weapon});
 		show_weapon_view.render();
 	}
 });
@@ -38,10 +37,9 @@ var AppRouter = Backbone.Router.extend({
 
 var ShowWeaponView = Backbone.View.extend({
 	render: function(){
-		var weapon = new Weapon,
-			source = $('#weapon-show-template').html(),
+		var source = $('#weapon-show-template').html(),
 			template = Handlebars.compile(source),
-			templateHTML = template(weapon.toJSON());
+			templateHTML = template(this.model.toJSON());
 		$('#main').html(templateHTML);
 	}
 });
