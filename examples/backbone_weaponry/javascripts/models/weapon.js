@@ -1,5 +1,6 @@
+var App = App || {};
 // MODEL: Weapon
-window.Weapon = Backbone.Model.extend({
+App.Weapon = Backbone.Model.extend({
 	idAttribute: 'slug',
 	defaults: {
 		name: "Aphrodite\'s Sword",

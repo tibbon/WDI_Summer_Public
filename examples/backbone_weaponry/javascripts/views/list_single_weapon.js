@@ -1,5 +1,6 @@
+var App = App || {};
 // Single view for our list
-window.ListSingleWeaponView = Backbone.View.extend({
+App.ListSingleWeaponView = Backbone.View.extend({
 	tagName: 'li',
 	events: {
 		'click':'view'

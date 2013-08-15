@@ -1,4 +1,6 @@
+var App = App || {};
+
 // COLLECTION: Weapons
-window.Weapons = Backbone.Collection.extend({
-	model: window.Weapon
+App.Weapons = Backbone.Collection.extend({
+	model: App.Weapon
 });

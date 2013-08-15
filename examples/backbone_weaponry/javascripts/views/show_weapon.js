@@ -1,5 +1,6 @@
+var App = App || {};
 // Single
-window.ShowWeaponView = Backbone.View.extend({
+App.ShowWeaponView = Backbone.View.extend({
 	el: $('#main'),
 	render: function(){
 		var source = $('#weapon-show-template').html(),

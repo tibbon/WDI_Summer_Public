@@ -1,5 +1,6 @@
+var App = App || {};
 // Multiple Weapons
-window.IndexWeaponsView = Backbone.View.extend({
+App.IndexWeaponsView = Backbone.View.extend({
 	el: $('#main'),
 	initialize: function () {
 		// Populate the application with the IndexWeaponsView template
@@ -11,7 +12,7 @@ window.IndexWeaponsView = Backbone.View.extend({
 	},
 	render: function() {
 		this.collection.each(function(weapon){
-			var view = new ListSingleWeaponView({model: weapon})
+			var view = new App.ListSingleWeaponView({model: weapon})
 			this.list.append(view.render().el);
 		}, this);
 
