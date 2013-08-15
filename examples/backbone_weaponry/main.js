@@ -7,8 +7,11 @@ var Weapon = Backbone.Model.extend({
 		slug: "aphrodites-sword",
 		number_slain: 9001
 	}
-})
+});
 // COLLECTION: Weapons
+var Weapons = Backbone.Collection.extend({
+	model: Weapon
+});
 
 // ROUTER: Everything
 
