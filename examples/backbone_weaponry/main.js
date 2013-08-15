@@ -16,6 +16,7 @@ var Weapons = Backbone.Collection.extend({
 // ROUTER: Everything
 var AppRouter = Backbone.Router.extend({
 	routes: {
+		'':'indexWeapons',
 		'weapons/:slug':'showWeapon'
 	},
 	initialize: function() {
@@ -31,16 +32,28 @@ var AppRouter = Backbone.Router.extend({
 		var show_weapon_view = new ShowWeaponView({model: weapon});
 		show_weapon_view.render();
 	}
+	indexWeapons: function() {
+		var index_weapons_view = new IndexWeaponsView({collection: this.weapons});
+		index_weapons_view.render();
+	}
 });
 
 // VIEWS: AppView, ShowWeaponView, IndexWeaponsView
 
+// Single
 var ShowWeaponView = Backbone.View.extend({
 	render: function(){
 		var source = $('#weapon-show-template').html(),
 			template = Handlebars.compile(source),
 			templateHTML = template(this.model.toJSON());
-		$('#main').html(templateHTML);
+		$('#main').html(templateHTML); // REFACTOR THIS LINE
+	}
+});
+
+// Multiple Weapons
+var IndexWeaponsView = Backbone.View.extend({
+	render: function() {
+		debugger;
 	}
 });
 
