@@ -14,6 +14,15 @@ var Weapons = Backbone.Collection.extend({
 });
 
 // ROUTER: Everything
+var AppRouter = Backbone.Router.extend({
+	routes: {
+		'weapons/:slug':'showWeapon'
+	},
+	showWeapon: function(){
+		var show_weapon_view = new ShowWeaponView;
+		show_weapon_view.render();
+	}
+});
 
 // VIEWS: AppView, ShowWeaponView, IndexWeaponsView
 
