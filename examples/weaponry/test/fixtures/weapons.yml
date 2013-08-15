@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  weapon_type: MyString
+  slug: MyString
+  slain: 1
+
+two:
+  name: MyString
+  weapon_type: MyString
+  slug: MyString
+  slain: 1
