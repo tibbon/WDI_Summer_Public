@@ -18,7 +18,17 @@ var AppRouter = Backbone.Router.extend({
 	routes: {
 		'weapons/:slug':'showWeapon'
 	},
-	showWeapon: function(){
+	initialize: function() {
+		this.weapons = new Weapons([
+			new Weapon({name: "Sting", type: "sword", slug: "sting", number_slain: 4}),
+			new Weapon({name: "Nymeria", type: "hammer", slug: "nymeria", number_slain: 90000}),
+			new Weapon({name: "Stormbringer", type: "sword", slug: "stormbringer", number_slain: 823})
+		]);
+	},
+	showWeapon: function(slug){
+		// Single weapon
+		var weapon = this.weapons.get(slug);
+		debugger;
 		var show_weapon_view = new ShowWeaponView;
 		show_weapon_view.render();
 	}
