@@ -4,7 +4,8 @@ window.Raffler = {
   Views: {},
   Routers: {},
   initialize: function() {
-    alert('Hello from Backbone!');
+    new Raffler.Routers.Entries;
+    Backbone.history.start();
   }
 };
 
