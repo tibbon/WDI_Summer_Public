@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require underscore
+//= require handlebars
 //= require backbone
 //= require raffler
 //= require_tree ../templates

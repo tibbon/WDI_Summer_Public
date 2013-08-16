@@ -4,7 +4,8 @@ Raffler.Routers.Entries = Backbone.Router.extend({
 		'entries/:id': 'show'
 	},
 	index: function() {
-		alert("Hello from Router Index");
+		var view = new Raffler.Views.EntriesIndex();
+		$('#container').html(view.render().el);
 	},
 	show: function(id) {
 		alert("Hello from Router Show Number:" + id);
