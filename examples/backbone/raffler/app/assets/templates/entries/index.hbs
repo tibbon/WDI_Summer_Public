@@ -1,2 +1,5 @@
 <h1>Hello World</h1>
-{{ entries }}
+
+{{#each collection.models }}
+	<p>Name: {{ attributes.name }}</p>
+{{/each}}
