@@ -1,5 +1,5 @@
 Raffler::Application.routes.draw do
-  get "main/index"
+  root to: "main#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
