@@ -1,4 +1,4 @@
-# JS Templating with AJAX Lab
+ # JS Templating with AJAX Lab
 Two main concepts will be explored during this lesson: JavaScript templating of data objects, and infinite scroll.
 
 ## Handlebars.js

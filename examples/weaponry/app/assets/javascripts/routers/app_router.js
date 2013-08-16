@@ -6,11 +6,6 @@ App.AppRouter = Backbone.Router.extend({
 		'weapons/:slug':'showWeapon'
 	},
 	initialize: function() {
-		this.weapons = new App.Weapons([
-			new App.Weapon({name: "Sting", type: "sword", slug: "sting", number_slain: 4}),
-			new App.Weapon({name: "Nymeria", type: "hammer", slug: "nymeria", number_slain: 90000}),
-			new App.Weapon({name: "Stormbringer", type: "sword", slug: "stormbringer", number_slain: 823})
-		]);
 	},
 	showWeapon: function(slug){
 		// Single weapon

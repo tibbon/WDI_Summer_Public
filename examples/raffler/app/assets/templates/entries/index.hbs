@@ -1,2 +1,6 @@
 <h1>Raffler</h1>
-{{ entries }}
+{{ collection.length }}
+
+{{#each collection.models}}
+	<p>Name: {{attributes.name}}</p>
+{{/each}}

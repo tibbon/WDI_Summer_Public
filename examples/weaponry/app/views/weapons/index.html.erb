@@ -17,6 +17,26 @@
   {{/each}}
 </script>
 
+<script type="text/json" id="bootstrap">
+  {
+    "weapons": <%= @weapons.to_json.html_safe %>
+  }
+</script>
+
+<%= content_for :javascript do -%>
+  <script type="text/javascript">
+  $(function(){
+    var div = $('<div></div>');
+    div.html($('#bootstrap').text());
+    var data = JSON.parse(div.text());
+    debugger;
+    this.weapons = new App.Weapons(data.weapons);
+    app = new App.AppRouter({collection: this.weapons});
+    Backbone.history.start();
+  });
+  </script>
+<% end %>
+
 
   <div id="main">
   </div>
