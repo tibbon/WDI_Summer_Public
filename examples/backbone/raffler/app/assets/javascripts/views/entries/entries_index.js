@@ -1,5 +1,5 @@
 Raffler.Views.EntriesIndex = Backbone.View.extend({
 
-  template: JST['entries/index']
+  template: HandlebarsTemplates['entries/index']
 
 });
