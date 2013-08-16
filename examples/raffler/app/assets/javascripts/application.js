@@ -15,6 +15,7 @@
 //= require underscore
 //= require backbone
 //= require raffler
+//= require handlebars
 //= require_tree ../templates
 //= require_tree ./models
 //= require_tree ./collections
