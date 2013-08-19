@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @firefighter.name %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @firefighter.age %>
+</p>
+
+
+<%= link_to 'Edit', edit_firefighter_path(@firefighter) %> |
+<%= link_to 'Back', firefighters_path %>

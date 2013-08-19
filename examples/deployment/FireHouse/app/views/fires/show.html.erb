@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Location:</b>
+  <%= @fire.location %>
+</p>
+
+<p>
+  <b>Intensity:</b>
+  <%= @fire.intensity %>
+</p>
+
+
+<%= link_to 'Edit', edit_fire_path(@fire) %> |
+<%= link_to 'Back', fires_path %>
