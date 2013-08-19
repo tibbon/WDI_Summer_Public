@@ -5,3 +5,11 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+100.times do |n|
+	Firefighter.create(name: "Fighter#{n}", age: n + 10 )
+end
+
+9001.times do |n|
+	Fire.create(location: "#{n} main street", intensity: n + 100 )
+end
