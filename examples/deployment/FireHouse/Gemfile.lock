@@ -37,6 +37,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    dalli (2.6.4)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -47,14 +48,18 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.0)
+    kgio (2.8.0)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    memcachier (0.0.2)
     mime-types (1.24)
     multi_json (1.7.9)
     newrelic_rpm (3.6.4.122)
     pg (0.15.1)
     polyglot (0.3.3)
+    puma (2.5.1)
+      rack (>= 1.1, < 2.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -80,6 +85,7 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    route_downcaser (0.2.0)
     sass (3.2.10)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -106,10 +112,16 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  dalli
   jquery-rails
+  kgio
+  memcachier
   newrelic_rpm
   pg
+  puma
+  rack-cache
   rails (= 3.2.13)
+  route_downcaser
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)

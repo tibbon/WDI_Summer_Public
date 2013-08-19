@@ -3,6 +3,7 @@ class FiresController < ApplicationController
   # GET /fires.json
   def index
     @fires = Fire.all
+    expires_in 10.minutes, public: true
 
     respond_to do |format|
       format.html # index.html.erb

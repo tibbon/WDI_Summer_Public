@@ -12,6 +12,8 @@ Raffler.Routers.Entries = Backbone.Router.extend({
 		$('#container').html(view.render().el);
 	},
 	show: function(id) {
-		alert("Hello from Router Show Number:" + id);
+		var entry = this.collection.get(id)
+		var view = new Raffler.Views.EntryShow({ model: entry });
+		$('#container').html(view.render().el);
 	}
 });
