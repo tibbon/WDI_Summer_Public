@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130819132745) do
+ActiveRecord::Schema.define(:version => 20130820200607) do
 
   create_table "firefighters", :force => true do |t|
     t.string   "name"
@@ -26,5 +26,39 @@ ActiveRecord::Schema.define(:version => 20130819132745) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
+
+  create_table "tweets", :force => true do |t|
+    t.string  "created_at"
+    t.text    "text"
+    t.string  "source"
+    t.boolean "truncated"
+    t.integer "retweet_count"
+    t.integer "favorite_count"
+    t.boolean "favorited"
+    t.boolean "retweeted"
+    t.string  "lang"
+    t.integer "user_id"
+    t.integer "tweet_id",       :limit => 8
+  end
+
+  add_index "tweets", ["lang"], :name => "lang_idx"
+  add_index "tweets", ["source"], :name => "source_idx"
+
+  create_table "users", :force => true do |t|
+    t.integer  "twitter_id"
+    t.string   "name"
+    t.string   "screen_name"
+    t.string   "url"
+    t.string   "location"
+    t.text     "description"
+    t.integer  "followers_count"
+    t.integer  "friends_count"
+    t.integer  "favourites_count"
+    t.string   "lang"
+    t.datetime "created_at",       :null => false
+    t.datetime "updated_at",       :null => false
+  end
+
+  add_index "users", ["screen_name"], :name => "index_users_on_screen_name"
 
 end
