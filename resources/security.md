@@ -29,7 +29,7 @@ As a warning, in several countries worldwide, possession of security audit tools
 
 * [Hackers](http://www.imdb.com/title/tt0113243/) (fiction)
 * [Sneakers](http://www.imdb.com/title/tt0105435/) (fiction)
-* [Defcon Documentary by Jason Scott](www.defcon.org/html/links/dc-torrent.html) (documentary)
+* [Defcon Documentary by Jason Scott](http://www.defcon.org/html/links/dc-torrent.html) (documentary)
 
 ## Events
 
