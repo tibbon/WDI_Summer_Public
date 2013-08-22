@@ -13,6 +13,7 @@
 * [Owasp-rails-security. 2008, but worth reading](https://www.owasp.org/index.php/File:Owasp-rails-security.pdf)
 * [XSS Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
 * [Open Locksport](http://locksport.com/)
+* [Removing Passwords from Github](https://help.github.com/articles/remove-sensitive-data)
 
 ## Tools:
 
