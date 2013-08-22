@@ -1,4 +1,10 @@
 FireHouse::Application.routes.draw do
+  resources :basses
+
+
+  resources :tacos
+
+
   resources :fires
 
 

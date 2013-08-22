@@ -1,0 +1,25 @@
+<h1>Listing burittos</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Flavor</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @burittos.each do |buritto| %>
+  <tr>
+    <td><%= buritto.name %></td>
+    <td><%= buritto.flavor %></td>
+    <td><%= link_to 'Show', buritto %></td>
+    <td><%= link_to 'Edit', edit_buritto_path(buritto) %></td>
+    <td><%= link_to 'Destroy', buritto, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Buritto', new_buritto_path %>

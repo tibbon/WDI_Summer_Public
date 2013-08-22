@@ -1,0 +1,21 @@
+<%= form_for(@bass) do |f| %>
+  <% if @bass.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bass.errors.count, "error") %> prohibited this bass from being saved:</h2>
+
+      <ul>
+      <% @bass.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

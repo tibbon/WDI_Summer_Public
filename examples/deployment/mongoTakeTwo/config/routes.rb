@@ -1,4 +1,13 @@
 MongoTakeTwo::Application.routes.draw do
+  resources :burittos
+
+
+  resources :basses
+
+
+  resources :tacos
+
+
   resources :books
 
 

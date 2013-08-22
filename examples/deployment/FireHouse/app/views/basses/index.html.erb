@@ -1,0 +1,23 @@
+<h1>Listing basses</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @basses.each do |bass| %>
+  <tr>
+    <td><%= bass.name %></td>
+    <td><%= link_to 'Show', bass %></td>
+    <td><%= link_to 'Edit', edit_bass_path(bass) %></td>
+    <td><%= link_to 'Destroy', bass, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bass', new_bass_path %>

@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @buritto.name %>
+</p>
+
+<p>
+  <b>Flavor:</b>
+  <%= @buritto.flavor %>
+</p>
+
+
+<%= link_to 'Edit', edit_buritto_path(@buritto) %> |
+<%= link_to 'Back', burittos_path %>
