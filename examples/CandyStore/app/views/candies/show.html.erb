@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @candy.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @candy.price %>
+</p>
+
+<p>
+  <strong>Flavors:</strong>
+  <%= @candy.flavors %>
+</p>
+
+<p>
+  <strong>Awards:</strong>
+  <%= @candy.awards %>
+</p>
+
+<%= link_to 'Edit', edit_candy_path(@candy) %> |
+<%= link_to 'Back', candies_path %>

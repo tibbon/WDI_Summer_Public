@@ -66,6 +66,9 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     colored (1.2)
+    dotenv (0.8.0)
+    dotenv-rails (0.8.0)
+      dotenv (= 0.8.0)
     erubis (2.7.0)
     execjs (2.0.0)
     fastercsv (1.5.5)
@@ -203,6 +206,7 @@ PLATFORMS
 DEPENDENCIES
   brakeman
   coffee-rails (~> 3.2.1)
+  dotenv-rails
   jquery-rails
   metric_fu
   mongoid
