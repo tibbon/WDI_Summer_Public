@@ -11,7 +11,8 @@ i1 = Product.create(	name: "The Mountain Three Wolf Moon Short Sleeve Tee",
 i2 = Product.create(	name: "Tuscan Whole Milk, 1 Gallon, 128 fl oz",
 					description: "While Milk"
 				 	)
-
+i2 = Product.first
+i1 = Product.all.to_a[1]
 # Review Seed
 
 r1 = Review.create( user: u1,
