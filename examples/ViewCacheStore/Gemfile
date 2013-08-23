@@ -6,7 +6,14 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 gem 'dalli'
-gem 'cache_digests'
+
+gem 'redis'
+gem 'redis-store'
+gem 'redis-rails'
+gem "resque", "~> 2.0.0.pre.1", github: "resque/resque"
+gem 'redis-rack-cache'
+gem 'rack-cache'
+gem 'puma'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
