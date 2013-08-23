@@ -1,4 +1,6 @@
 ViewCacheStore::Application.routes.draw do
+  resources :users
+
   resources :reviews
 
   resources :products

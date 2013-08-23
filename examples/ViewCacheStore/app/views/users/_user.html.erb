@@ -1,4 +1,6 @@
-<div class="user">
+<% cache user do %>
+<div class="user" id="user-<%=user.id%>">
 	<%= user.name %>
 	<%= image_tag user.profile_image_url, width: 100 %>
 </div>
+<% end %>
