@@ -1,16 +1,18 @@
-<p id="notice"><%= notice %></p>
+<% cache @product do %>
+	<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @product.name %>
-</p>
+	<p>
+	  <strong>Name:</strong>
+	  <%= @product.name %>
+	</p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @product.description %>
-</p>
+	<p>
+	  <strong>Description:</strong>
+	  <%= @product.description %>
+	</p>
 
-<%= render @product.reviews %>
+	<%= render @product.reviews %>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+	<%= link_to 'Edit', edit_product_path(@product) %> |
+	<%= link_to 'Back', products_path %>
+<% end %>
