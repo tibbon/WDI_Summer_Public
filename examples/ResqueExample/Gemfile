@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 
+# Resque for background jobs. Currently v2.0.0-pre-1. Soon v2. 
+gem "resque", "~> 2.0.0.pre.1", github: "resque/resque"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
