@@ -7,6 +7,11 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
+  # POST /queue_background_job
+  def queue_background_job
+    Resque.enqueue(ExampleJob)
+  end
+
   # GET /posts/1
   # GET /posts/1.json
   def show

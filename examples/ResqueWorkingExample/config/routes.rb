@@ -1,6 +1,7 @@
 ResqueWorkingExample::Application.routes.draw do
   resources :posts
-
+  post 'queue_background_job' => 'posts#queue_background_job'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
