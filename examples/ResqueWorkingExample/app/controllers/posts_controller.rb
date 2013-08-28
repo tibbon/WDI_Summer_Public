@@ -10,6 +10,7 @@ class PostsController < ApplicationController
   # POST /queue_background_job
   def queue_background_job
     Resque.enqueue(ExampleJob)
+    redirect_to posts_path
   end
 
   # GET /posts/1
