@@ -1,4 +1,4 @@
-module TestJob
+module ExampleJob
   @queue = :default
 
   def self.perform
