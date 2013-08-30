@@ -21,8 +21,15 @@
   </div>
   <div class="field">
     <%= f.label :flavors %><br>
-    <%= f.text_field :flavors %>
+    <%= f.collection_check_boxes :flavors, 
+        %w(sweet peanutbutter carmel), :to_s, :to_s %>
   </div>
+
+  <div class="field">
+    <%= f.label :created_at %><br>
+    <%= f.date_select :created_at %>
+  </div>
+
   <div class="field">
     <%= f.label :awards %><br>
     <%= f.text_field :awards %>

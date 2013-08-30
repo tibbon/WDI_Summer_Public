@@ -61,6 +61,10 @@ class CandiesController < ApplicationController
     end
   end
 
+  def update_flavor
+    @candy.update(candy_flavor_params)
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_candy
@@ -70,5 +74,9 @@ class CandiesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def candy_params
       params.require(:candy).permit(:name, :price, :flavors, :awards)
+    end
+
+    def candy_flavor_params
+      params.require(:candy).permit(:flavors)
     end
 end
